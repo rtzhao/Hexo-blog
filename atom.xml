@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-08-15T04:07:12.100Z</updated>
+  <updated>2021-08-16T05:37:29.384Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-8-16</title>
+    <link href="https://www.rtzhao.site/2021/08/16/%E6%97%A5%E5%BF%97-2021-8-16/"/>
+    <id>https://www.rtzhao.site/2021/08/16/%E6%97%A5%E5%BF%97-2021-8-16/</id>
+    <published>2021-08-16T01:47:04.000Z</published>
+    <updated>2021-08-16T05:37:29.384Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="FR示教器-控制器-通讯指令协议"><a href="#FR示教器-控制器-通讯指令协议" class="headerlink" title="FR示教器-控制器 通讯指令协议"></a>FR示教器-控制器 通讯指令协议</h3><p>机器人驱动器：</p><ul><li>液压驱动</li><li>气压驱动</li><li>电气驱动</li><li>机械驱动</li></ul><p>硬限位：硬限位就是用机械加工件去实现设备位置的限制，经常用到的是机加件上安装聚氨酯做硬限位。<br>软限位：软限位就是通过电器和软件来实现如光电开关、行程开关等等。在程序里面的输出上做限位，主要针对比较重要的阀门。</p><p>主站：网络上的主站器件可以向网络上的其他器件发出要求。主站也可以对网络上的其他主站的要求做出响应。<br>从站：配置为从站的器件只能对其他主站的要求做出响应，自己不能发出要求。</p><p>PLC一般指可编程逻辑控制器</p><p>数字量和模拟量的区别：数字量是断续性变化的一串数字信号，模拟量是始终连续的一串数字信号</p><p>套接字通讯：socket通讯</p><h3 id="Qt"><a href="#Qt" class="headerlink" title="Qt"></a>Qt</h3><p><strong>上位机</strong>：上位机是指可以直接发出操控命令的计算机（PC）</p><p><strong>下位机</strong>：下位机是直接控制设备获取设备状况的计算机（PLC 可编程逻辑控制器）</p><p><strong>串行接口</strong>：串行接口是一种可以将接收来自CPU的并行数据字符转换为连续的串行数据流发送出去，同时可将接收的串行数据流转换为并行的数据字符供给CPU的器件。一般完成这种功能的电路，我们称为串行接口电路。</p><p><strong>串口通信</strong>：串口通信（Serial Communications）的概念非常简单，串口按位（bit）发送和接收字节的通信方式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;FR示教器-控制器-通讯指令协议&quot;&gt;&lt;a href=&quot;#FR示教器-控制器-通讯指令协议&quot; class=&quot;headerlink&quot; title=&quot;FR示教器-控制器 通讯指令协议&quot;&gt;&lt;/a&gt;FR示教器-控制器 通讯指令协议&lt;/h3&gt;&lt;p&gt;机器人驱动器：&lt;/p&gt;
+&lt;u</summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>new-system-test</title>
