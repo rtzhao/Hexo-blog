@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-08-16T05:37:29.384Z</updated>
+  <updated>2021-08-17T09:30:05.576Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-8-17</title>
+    <link href="https://www.rtzhao.site/2021/08/17/%E6%97%A5%E5%BF%97-2021-8-17/"/>
+    <id>https://www.rtzhao.site/2021/08/17/%E6%97%A5%E5%BF%97-2021-8-17/</id>
+    <published>2021-08-17T00:36:42.000Z</published>
+    <updated>2021-08-17T09:30:05.576Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Layui"><a href="#Layui" class="headerlink" title="Layui"></a>Layui</h3><p><a class="link"   href="https://www.layui.com/" >layui<i class="fas fa-external-link-alt"></i></a></p><pre><code>建议在你的 js 文件中，在最外层写一个 layui.use 来加载所依赖的模块，并将业务代码写在回调中，这样还可以确保 html 文档加载完毕再执行回调代码</code></pre><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">layui.use([<span class="string">&#x27;layer&#x27;</span>, <span class="string">&#x27;laypage&#x27;</span>, <span class="string">&#x27;laydate&#x27;</span>], <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> layer = layui.layer <span class="comment">//获得 layer 模块</span></span><br><span class="line">  ,laypage = layui.laypage <span class="comment">//获得 laypage 模块</span></span><br><span class="line">  ,laydate = layui.laydate; <span class="comment">//获得 laydate 模块</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment">//使用模块</span></span><br><span class="line">&#125;);   </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">把一个 icon 看作是一个普通的文字，</span><br><span class="line">这意味着你直接用 css 控制文字属性，如 color、font-size，就可以改变图标的颜色和大小</span><br></pre></td></tr></table></figure><h3 id="Layui后台管理模板"><a href="#Layui后台管理模板" class="headerlink" title="Layui后台管理模板"></a>Layui后台管理模板</h3><p><a class="link"   href="http://layuimini.99php.cn/" >LAYUI MINI<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="http://easyadmin.99php.cn/" >EasyAdmin<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Layui&quot;&gt;&lt;a href=&quot;#Layui&quot; class=&quot;headerlink&quot; title=&quot;Layui&quot;&gt;&lt;/a&gt;Layui&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://www.layui.com/&quot; &gt;layui&lt;i c</summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日志-2021-8-16</title>
