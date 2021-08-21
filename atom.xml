@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-08-21T01:15:53.146Z</updated>
+  <updated>2021-08-21T07:48:10.360Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-8-21</title>
+    <link href="https://www.rtzhao.site/2021/08/21/%E6%97%A5%E5%BF%97-2021-8-21/"/>
+    <id>https://www.rtzhao.site/2021/08/21/%E6%97%A5%E5%BF%97-2021-8-21/</id>
+    <published>2021-08-21T01:47:46.000Z</published>
+    <updated>2021-08-21T07:48:10.360Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="基于JWT的Token登录认证"><a href="#基于JWT的Token登录认证" class="headerlink" title="基于JWT的Token登录认证"></a>基于JWT的Token登录认证</h3><p><a class="link"   href="https://www.jianshu.com/p/e34a579c63a0" >使用JWT做用户登陆token校验<i class="fas fa-external-link-alt"></i></a> </p><p><a class="link"   href="https://www.jianshu.com/p/fe67b4bb6f2c" >使用JWT实现Token认证<i class="fas fa-external-link-alt"></i></a></p><p>先了解原理，真到用到的时候再说</p><h3 id="LAYUI-MINI"><a href="#LAYUI-MINI" class="headerlink" title="LAYUI MINI"></a>LAYUI MINI</h3><p>.gitattributes   github强制语言设置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*.js linguist-language=JavaScript</span><br><span class="line">*.css linguist-language=JavaScript</span><br><span class="line">*.html linguist-language=JavaScript</span><br></pre></td></tr></table></figure><p>index.html</p><p><strong>meta</strong>部分</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;webkit&quot;</span>&gt;</span> 页面需默认用极速核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-comp&quot;</span>&gt;</span> 页面需默认用ie兼容内核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-stand&quot;</span>&gt;</span> 页面需默认用ie标准内核</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Access-Control-Allow-Origin&quot;</span> <span class="attr">content</span>=<span class="string">&quot;*&quot;</span>&gt;</span> </span><br><span class="line">请求的url是静态的html页面</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span>&gt;</span></span><br><span class="line">在iOS中有两个meta值，这两个会让网页内容以应用程序风格显示，并使状态栏透明</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;format-detection&quot;</span> <span class="attr">content</span>=<span class="string">&quot;telephone=no&quot;</span>&gt;</span></span><br><span class="line">指定是否将网页内容中的手机号码显示为拨号的超链接</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>css</strong></p><p>layuimini.css  配色方案</p><p>defalut.css </p><p>layui.css</p><p>welcome-2.html</p><p><strong>css</strong></p><p>layui.css</p><p>public.css</p><p>嵌入的style</p><p>​    </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;基于JWT的Token登录认证&quot;&gt;&lt;a href=&quot;#基于JWT的Token登录认证&quot; class=&quot;headerlink&quot; title=&quot;基于JWT的Token登录认证&quot;&gt;&lt;/a&gt;基于JWT的Token登录认证&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;link&quot;   </summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日志-2021-8-20</title>
