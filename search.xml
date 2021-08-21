@@ -373,7 +373,7 @@
 
 
 
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">spring-boot-starter-aop </span><br><span class="line">spring-boot-configuration-processor 配置properties文件时有属性名提示 </span><br><span class="line">fastjson </span><br><span class="line">devtools 热部署（好像不推荐）</span><br><span class="line">com.aliyun.oss 云对象存储OSS   aliyun.properties配置</span><br><span class="line">com.github.qcloudsms 腾讯云短信验证码</span><br><span class="line">spring-boot-starter-validation 参数校验</span><br><span class="line">commons-net ftp服务依赖包</span><br><span class="line">cn.hutool hutool工具包</span><br><span class="line">commons-codec 字节转换</span><br><span class="line">lombok 语法糖(感觉代价有些大)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--添加后端调用其它项目接口的jar--&gt;</span></span><br><span class="line">commons-io 帮助io开发</span><br><span class="line">json-lib JSON&lt;--&gt;JavaBean</span><br><span class="line">commons-fileupload 文件上传</span><br><span class="line"></span><br><span class="line">org.apache.shiro  shiro权限</span><br><span class="line">javax.websocket 实现websocket</span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">spring-boot-starter-aop </span><br><span class="line">spring-boot-configuration-processor 配置properties文件时有属性名提示 </span><br><span class="line">fastjson </span><br><span class="line">devtools 热部署（</span><br><span class="line">com.aliyun.oss 云对象存储OSS   aliyun.properties配置</span><br><span class="line">com.github.qcloudsms 腾讯云短信验证码</span><br><span class="line">spring-boot-starter-validation 参数校验</span><br><span class="line">commons-net ftp服务依赖包</span><br><span class="line">cn.hutool hutool工具包</span><br><span class="line">commons-codec 字节转换</span><br><span class="line">lombok 语法糖(感觉代价有些大)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--添加后端调用其它项目接口的jar--&gt;</span></span><br><span class="line">commons-io 帮助io开发</span><br><span class="line">json-lib JSON&lt;--&gt;JavaBean</span><br><span class="line">commons-fileupload 文件上传</span><br><span class="line"></span><br><span class="line">org.apache.shiro  shiro权限</span><br><span class="line">javax.websocket 实现websocket</span><br></pre></td></tr></table></figure>
 
 
 <h3 id="class"><a href="#class" class="headerlink" title="class"></a>class</h3><h4 id="util"><a href="#util" class="headerlink" title="util"></a>util</h4><p>idgen 生成唯一全局id</p>
@@ -451,6 +451,117 @@
 <p>DTO 数据传输对象</p>
 <p>DO 领域对象（业务实体）</p>
 <p>PO 持久化对象</p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-20</title>
+    <url>/2021/08/20/%E6%97%A5%E5%BF%97-2021-8-20/</url>
+    <content><![CDATA[<h3 id="echarts-Json-Springboot"><a href="#echarts-Json-Springboot" class="headerlink" title="echarts+Json+Springboot"></a>echarts+Json+Springboot</h3><p>Controller</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.tantela.controller.ygcTest;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Controller;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMethod;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.ResponseBody;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span> 邪王真眼是最强的</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Date</span> 2021/8/20 10:03</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Version</span> 1.0</span></span><br><span class="line"><span class="comment"> * */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;echarts&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IndexController</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@RequestMapping(value = &quot;/jsonData&quot;, method = RequestMethod.GET)</span></span><br><span class="line">  <span class="meta">@ResponseBody</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> Map&lt;String, Object&gt; <span class="title">jsonTest</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    String[] xAxisContent = &#123;<span class="string">&quot;衬衫&quot;</span>, <span class="string">&quot;羊毛衫&quot;</span>, <span class="string">&quot;雪纺衫&quot;</span>, <span class="string">&quot;裤子&quot;</span>, <span class="string">&quot;高跟鞋&quot;</span>, <span class="string">&quot;袜子&quot;</span>&#125;;</span><br><span class="line">    <span class="keyword">int</span>[] dataContent = &#123;<span class="number">5</span>, <span class="number">20</span>, <span class="number">36</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">20</span>&#125;;</span><br><span class="line">    Map&lt;String, Object&gt; optionMap = <span class="keyword">new</span> HashMap&lt;&gt;(<span class="number">16</span>);</span><br><span class="line">    Map&lt;String, Object&gt; seriesMap = <span class="keyword">new</span> HashMap&lt;&gt;(<span class="number">16</span>);</span><br><span class="line"></span><br><span class="line">    seriesMap.put(<span class="string">&quot;name&quot;</span>, <span class="string">&quot;销量&quot;</span>);</span><br><span class="line">    seriesMap.put(<span class="string">&quot;type&quot;</span>, <span class="string">&quot;bar&quot;</span>);</span><br><span class="line">    seriesMap.put(<span class="string">&quot;data&quot;</span>, dataContent);</span><br><span class="line"></span><br><span class="line">    optionMap.put(<span class="string">&quot;text&quot;</span>, <span class="string">&quot;ECharts ajax示例&quot;</span>);</span><br><span class="line">    optionMap.put(<span class="string">&quot;method&quot;</span>, <span class="string">&quot;json&quot;</span>);</span><br><span class="line">    optionMap.put(<span class="string">&quot;legend&quot;</span>, <span class="keyword">new</span> String[]&#123;<span class="string">&quot;销量&quot;</span>&#125;);</span><br><span class="line">    optionMap.put(<span class="string">&quot;xAxis&quot;</span>, xAxisContent);</span><br><span class="line">    optionMap.put(<span class="string">&quot;series&quot;</span>, seriesMap);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> optionMap;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>View</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;main&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 600px;height: 400px;margin: 10% auto&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/jQuery/jquery.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/echarts/echarts.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">    $.ajax(&#123;</span></span><br><span class="line"><span class="javascript">        <span class="attr">url</span>: <span class="string">&quot;http://localhost:9091/echarts/jsonData&quot;</span>,</span></span><br><span class="line"><span class="javascript">        <span class="attr">data</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">        <span class="attr">type</span>: <span class="string">&quot;get&quot;</span>,</span></span><br><span class="line"><span class="javascript">        <span class="attr">dataType</span>: <span class="string">&quot;json&quot;</span>,</span></span><br><span class="line"><span class="javascript">        <span class="attr">success</span>: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">console</span>.log(data);</span></span><br><span class="line"><span class="javascript">            <span class="keyword">const</span> myChart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">&#x27;main&#x27;</span>));</span></span><br><span class="line"><span class="javascript">            myChart.setOption(&#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">title</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">text</span>: data.text</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">tooltip</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">legend</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.legend</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">xAxis</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.xAxis</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">yAxis</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">series</span>: [&#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">type</span>: data.series.type,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">name</span>: data.series.name,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.series.data</span></span><br><span class="line"><span class="javascript">                &#125;</span></span><br><span class="line"><span class="javascript">                ]</span></span><br><span class="line"><span class="javascript">            &#125;)</span></span><br><span class="line"><span class="javascript">        &#125;</span></span><br><span class="line"><span class="javascript">    &#125;)</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="ECharts-示例"><a href="#ECharts-示例" class="headerlink" title="ECharts 示例"></a>ECharts 示例</h3><h4 id="Confidence-Band"><a href="#Confidence-Band" class="headerlink" title="Confidence Band"></a>Confidence Band</h4><p>一个点的估计 -&gt; 置信区间</p>
+<p>一个函数的估计 -&gt; 置信带</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/CondidenceBand.png"
+                      alt="image-20210820153606482"
+                ></p>
+<h4 id="盒须图"><a href="#盒须图" class="headerlink" title="盒须图"></a>盒须图</h4><p>箱形图（Box-plot）又称为盒须图、盒式图或箱线图，是一种用作显示一组数据分散情况资料的统计图。</p>
+<p>在各种领域也经常被使用，常见于品质管理。它主要用于反映原始数据分布的特征，还可以进行多组数据分布特征的比较。</p>
+<p>箱线图的绘制方法是：先找出一组数据的上边缘、下边缘、中位数和两个四分位数；然后， 连接两个四分位数画出箱体；再将上边缘和下边缘与箱体相连接，中位数在箱体中间。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/Box-plot.png"
+                      alt="image-20210820163034871"
+                ></p>
+<h4 id="甘特图"><a href="#甘特图" class="headerlink" title="甘特图"></a>甘特图</h4><p>甘特图（Gantt chart）又称为横道图、条状图(Bar chart)。</p>
+<p>其通过条状图来显示项目、进度和其他时间相关的系统进展的内在关系随着时间进展的情况。以提出者<a class="link"   href="https://baike.baidu.com/item/%E4%BA%A8%E5%88%A9%C2%B7%E5%8A%B3%E4%BC%A6%E6%96%AF%C2%B7%E7%94%98%E7%89%B9/5141066" >亨利·劳伦斯·甘特<i class="fas fa-external-link-alt"></i></a>（Henry Laurence Gantt）先生的名字命名。</p>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p>OTA：空气质量指数</p>
+<p>折线图的标记线：带数据标记的折线图</p>
+<p>OA：办公自动化</p>
+<p>BPM：业务流程管理</p>
+<p><a class="link"   href="https://gitee.com/opencc/JFlow" >CCBPM<i class="fas fa-external-link-alt"></i></a> 驰骋工作流引擎 ccbpm包含<strong>表单引擎</strong>与<strong>流程引擎</strong>两大部分，并且两块完美结合，流程引擎对表单引擎的操纵，协同高效工作, 完成了很多国内生产审批模式下的流程设计</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210904385.png"
+                      alt="输入图片说明"
+                ></p>
+<h3 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h3><p>👍👍👍  <a class="link"   href="https://hutool.cn/" >Hutool<i class="fas fa-external-link-alt"></i></a> Hutool是一个小而全的Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210851632.png"
+                      alt="image-20210821085158575"
+                ></p>
+<p>👍👍👍 <a class="link"   href="https://www.yungouos.com/#/" >YunCouOS<i class="fas fa-external-link-alt"></i></a> 微信、支付宝、聚合支付</p>
+<p>🤞🤞🤞<a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a> 新一代的模板引擎，它功能强大，性能良好，超过当前流行的模板引擎。而且还易学易用。</p>
+<p><strong>BeetSql</strong>是一个全功能DAO工具， 同时具有Hibernate 优点 &amp; Mybatis优点功能，适用于承认以SQL为中心，同时又需求工具能自动能生成大量常用的SQL的应用。</p>
+<p><a class="link"   href="https://vuepress.vuejs.org/zh/" >VuePress<i class="fas fa-external-link-alt"></i></a> Vue 驱动的静态网站生成器</p>
+<p><a class="link"   href="https://vuepress-theme-reco.recoluan.com/" >vuepress-theme-reco<i class="fas fa-external-link-alt"></i></a> 开发一款看着开心、写着顺手的 vuepress 博客主题</p>
+<p><a class="link"   href="https://www.layui.com/layim/" >LayIM<i class="fas fa-external-link-alt"></i></a> LayIM 是基于 layui 的一款用于开发网页端聊天系统的纯静态 UI 界面解决方案，其包含的只是一套前端源代码素材和相关的模拟示例，没有后端程序及数据库存储等服务。</p>
+<p><a class="link"   href="https://gitee.com/koogua/course-tencent-cloud" > 酷瓜云课堂<i class="fas fa-external-link-alt"></i></a> 酷瓜云课堂，依托腾讯云基础服务架构，采用C扩展框架Phalcon开发，GPL-2.0开源协议，致力开源网课系统，开源网校系统，开源知识付费系统，开源在线教育系统。 </p>
+<h3 id="后台模板框架"><a href="#后台模板框架" class="headerlink" title="后台模板框架"></a>后台模板框架</h3><p><a class="link"   href="https://www.xiaonuo.vip/" >小诺<i class="fas fa-external-link-alt"></i></a> 通用型后台权限管理框架，紧随潮流、开箱即用。拥有多种版本选择，随意搭配使用</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/xiaonuo.png"
+                      alt="image-20210820172334836"
+                ></p>
+<p><a class="link"   href="https://www.stylefeng.cn/" > Guns快速开发平台<i class="fas fa-external-link-alt"></i></a> 更简洁的代码，可插拔式架构，5年磨一剑，帮助中、小企业解决前后端架构问题</p>
+<p>不推荐 👴公测期间暂时只开放企业版用户使用，请联系Guns运营团队，获取secretKey</p>
+<p><a class="link"   href="https://eleadmin.com/" >EleAdmin<i class="fas fa-external-link-alt"></i></a> 通用型后台管理模板，界面美观、开箱即用。拥有丰富的扩展组件和模板页面，适合各类中后台应用</p>
+<p>😫收费 ，还有最便宜的只有接口🤏</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108201730017.png"
+                      alt="image-20210820173054980"
+                ></p>
+<p><a href="https://wooadmin.cn/index/index.html"><em>W<strong>O</strong>O<strong>C</strong>MS</em></a> 精心铸造网站管理系统 看上去有点low😒</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210839060.png"
+                      alt="image-20210821083938883"
+                ></p>
+<p><a class="link"   href="http://easyadmin.99php.cn/" >EasyAdmin<i class="fas fa-external-link-alt"></i></a> 基于ThinkPHP6.0+Layui的快速开发的后台管理系统</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210837984.png"
+                      alt="image-20210821083722797"
+                ></p>
+<p><a class="link"   href="https://gitee.com/QinHaiSenLin/Jfinal-layui" > Jfinal-layui-pro 专业版<i class="fas fa-external-link-alt"></i></a> JFinal+layui极速开发企业应用管理系统，是以JFinal+layui为核心的企业应用项目架构，利用JFinal的特性与layui完美结合，达到快速启动项目的目的。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210840467.png"
+                      alt="img"
+                ></p>
+<p><a class="link"   href="https://www.gemframework.com/?from=EleAdmin" >捷码开源<i class="fas fa-external-link-alt"></i></a>  Java快速开发基础架构，由Gem团队倾情打造，面向中小型企业及个人开发者提供全面微服务基础架构解决方案。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210848490.png"
+                      alt="img"
+                ></p>
+<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>后台首页 下周</p>
+<p>echarts（柱状、饼图）</p>
+<p>Layui（后台管理模板前端界面)</p>
+<p>stackoverflow</p>
 ]]></content>
       <categories>
         <category>tantela</category>
