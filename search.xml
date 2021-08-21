@@ -558,6 +558,19 @@
                      data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210848490.png"
                       alt="img"
                 ></p>
+<p><a class="link"   href="http://www.ruoyi.vip/" >若依<i class="fas fa-external-link-alt"></i></a> 基于SpringBoot的权限管理系统 （作者给女儿起的名字）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210912728.png"
+                      alt="image-20210821091252683"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108210915707.png"
+                      alt="image-20210821091549660"
+                ></p>
 <h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>后台首页 下周</p>
 <p>echarts（柱状、饼图）</p>
 <p>Layui（后台管理模板前端界面)</p>
