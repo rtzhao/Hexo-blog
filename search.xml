@@ -815,10 +815,11 @@
   <entry>
     <title>日志-2021-8-24</title>
     <url>/2021/08/24/%E6%97%A5%E5%BF%97-2021-8-24/</url>
-    <content><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><h4 id="GitHUb统计信息"><a href="#GitHUb统计信息" class="headerlink" title="GitHUb统计信息"></a>GitHUb统计信息</h4><p><a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
+    <content><![CDATA[<h4 id="GitHUb统计信息"><a href="#GitHUb统计信息" class="headerlink" title="GitHUb统计信息"></a>GitHUb统计信息</h4><p><a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
 <p>修改仓库使用的语言</p>
 <h4 id="小工具"><a href="#小工具" class="headerlink" title="小工具"></a>小工具</h4><p><a class="link"   href="https://shields.io/" >shields<i class="fas fa-external-link-alt"></i></a> 图标生成小工具 适合编排进Markdown文档</p>
 <p><a class="link"   href="https://wakatime.com/dashboard" >WakaTime<i class="fas fa-external-link-alt"></i></a> 语言、编辑器等使用时间统计，可在github首页配置 <a class="link"   href="https://segmentfault.com/a/1190000040248192?utm_source=sf-similar-article" >参考文档<i class="fas fa-external-link-alt"></i></a></p>
+<h4 id="Layuimini-SpringBoot"><a href="#Layuimini-SpringBoot" class="headerlink" title="Layuimini + SpringBoot"></a>Layuimini + SpringBoot</h4><p>CRUD</p>
 ]]></content>
       <categories>
         <category>tantela</category>
