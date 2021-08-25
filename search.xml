@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>First Blog</title>
+    <url>/2021/08/02/First-Blog/</url>
+    <content><![CDATA[<p><strong>Layui</strong><br>layui 是一套开源的 Web UI 解决方案,其内部采用的是自身经典的模块化规范,并遵循原生 HTML/CSS/JS 的开发方式,极易上手,拿来即用。</p>
+<p><strong>MVVM</strong> （Model-View-ViewModel）它本质上就是MVC 的改进版。MVVM 就是将其中的View 的状态和行为抽象化，让我们将视图 UI 和业务逻辑分开。</p>
+<p><strong>Gulp</strong> <a class="link"   href="https://www.gulpjs.com.cn/" >官网<i class="fas fa-external-link-alt"></i></a><br>好难用啊，教程少，案例少，错误解决方法少<br>改用webpage吧！！！</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Second Blog</title>
     <url>/2021/08/03/Second-Blog/</url>
     <content><![CDATA[<p><a class="link"   href="https://hexo.io/zh-cn/" >Hexo<i class="fas fa-external-link-alt"></i></a></p>
@@ -16,14 +24,6 @@
       <categories>
         <category>tantela</category>
       </categories>
-  </entry>
-  <entry>
-    <title>First Blog</title>
-    <url>/2021/08/02/First-Blog/</url>
-    <content><![CDATA[<p><strong>Layui</strong><br>layui 是一套开源的 Web UI 解决方案,其内部采用的是自身经典的模块化规范,并遵循原生 HTML/CSS/JS 的开发方式,极易上手,拿来即用。</p>
-<p><strong>MVVM</strong> （Model-View-ViewModel）它本质上就是MVC 的改进版。MVVM 就是将其中的View 的状态和行为抽象化，让我们将视图 UI 和业务逻辑分开。</p>
-<p><strong>Gulp</strong> <a class="link"   href="https://www.gulpjs.com.cn/" >官网<i class="fas fa-external-link-alt"></i></a><br>好难用啊，教程少，案例少，错误解决方法少<br>改用webpage吧！！！</p>
-]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -42,6 +42,26 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>文档迁移说明</title>
+    <url>/2021/08/03/%E6%96%87%E6%A1%A3%E8%BF%81%E7%A7%BB%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<p>RSS迁移好像不太好使 <a class="link"   href="https://blog.csdn.net/RTyinying/rss/list" >我的CSDN<i class="fas fa-external-link-alt"></i></a></p>
+<p>使用GitHub Actions 自动部署Hexo博客失败 <a class="link"   href="https://juejin.cn/post/6943895271751286821" >原文<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h2><p>1）监视文件变动，立即生成静态文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate --watch  </span><br></pre></td></tr></table></figure>
+
+<p>2）完成后部署</p>
+<p>生成完毕后自动部署网站</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g -d</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>说明</category>
+      </categories>
+      <tags>
+        <tag>RSS,GitHub Actions</tag>
+      </tags>
   </entry>
   <entry>
     <title>日志-2021-8-16</title>
@@ -68,26 +88,6 @@
       </categories>
   </entry>
   <entry>
-    <title>文档迁移说明</title>
-    <url>/2021/08/03/%E6%96%87%E6%A1%A3%E8%BF%81%E7%A7%BB%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<p>RSS迁移好像不太好使 <a class="link"   href="https://blog.csdn.net/RTyinying/rss/list" >我的CSDN<i class="fas fa-external-link-alt"></i></a></p>
-<p>使用GitHub Actions 自动部署Hexo博客失败 <a class="link"   href="https://juejin.cn/post/6943895271751286821" >原文<i class="fas fa-external-link-alt"></i></a></p>
-<h2 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h2><p>1）监视文件变动，立即生成静态文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate --watch  </span><br></pre></td></tr></table></figure>
-
-<p>2）完成后部署</p>
-<p>生成完毕后自动部署网站</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g -d</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>说明</category>
-      </categories>
-      <tags>
-        <tag>RSS,GitHub Actions</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>日志-2021-8-17</title>
     <url>/2021/08/17/%E6%97%A5%E5%BF%97-2021-8-17/</url>
     <content><![CDATA[<h3 id="Layui"><a href="#Layui" class="headerlink" title="Layui"></a>Layui</h3><p><a class="link"   href="https://www.layui.com/" >layui<i class="fas fa-external-link-alt"></i></a></p>
@@ -99,28 +99,6 @@
 
 <h3 id="Layui后台管理模板"><a href="#Layui后台管理模板" class="headerlink" title="Layui后台管理模板"></a>Layui后台管理模板</h3><p><a class="link"   href="http://layuimini.99php.cn/" >LAYUI MINI<i class="fas fa-external-link-alt"></i></a></p>
 <p><a class="link"   href="http://easyadmin.99php.cn/" >EasyAdmin<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-      <categories>
-        <category>tantela</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日志-2021-8-18</title>
-    <url>/2021/08/18/%E6%97%A5%E5%BF%97-2021-8-18/</url>
-    <content><![CDATA[<h3 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h3><p><a class="link"   href="https://echarts.apache.org/zh/index.html" >Apache ECharts<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="ECharts-Json"><a href="#ECharts-Json" class="headerlink" title="ECharts + Json"></a>ECharts + Json</h3><p>data.json</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;text&quot;</span>:<span class="string">&quot;ECharts ajax示例&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;legend&quot;</span>: <span class="string">&quot;销量&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;xAxis-&quot;</span>:[<span class="string">&quot;衬衫&quot;</span>,<span class="string">&quot;羊毛衫&quot;</span>,<span class="string">&quot;雪纺衫&quot;</span>,<span class="string">&quot;裤子&quot;</span>,<span class="string">&quot;高跟鞋&quot;</span>,<span class="string">&quot;袜子&quot;</span>],</span><br><span class="line">  <span class="attr">&quot;series&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;销量&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;bar&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;data&quot;</span>: [<span class="number">5</span>, <span class="number">20</span>, <span class="number">36</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">20</span>]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p> Echarts-Json.html</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;main&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 600px;height: 400px;margin: 10% auto&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/json&quot;</span> <span class="attr">src</span>=<span class="string">&quot;data.json&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/jQuery/jquery.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/echarts/echarts.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">    $(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">        <span class="keyword">const</span> myChart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">&#x27;main&#x27;</span>));</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        <span class="keyword">const</span> option = &#123;</span></span><br><span class="line"><span class="javascript">            <span class="attr">title</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">text</span>:<span class="string">&#x27;&#x27;</span></span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">tooltip</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">legend</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">xAxis</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">yAxis</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">series</span>: [&#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">name</span>: <span class="string">&#x27;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">                <span class="attr">type</span>: <span class="string">&#x27;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            ]</span></span><br><span class="line"><span class="javascript">        &#125;;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        myChart.setOption(option);</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        $.getJSON(<span class="string">&#x27;data.json&#x27;</span>).done(<span class="function"><span class="keyword">function</span> (<span class="params">data</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">            myChart.setOption(&#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">title</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">text</span>:data.text</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">tooltip</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">legend</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.legend</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">xAxis</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.xAxis</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">yAxis</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">series</span>: [&#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">name</span>: data.series[<span class="number">0</span>].name,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">type</span>: data.series[<span class="number">0</span>].type,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.series[<span class="number">0</span>].data</span></span><br><span class="line"><span class="javascript">                &#125;</span></span><br><span class="line"><span class="javascript">                ]</span></span><br><span class="line"><span class="javascript">            &#125;)</span></span><br><span class="line"><span class="javascript">        &#125;)</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">    &#125;)</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>目录结构</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108181837828.png"
-                      alt="image-20210818183731728"
-                ></p>
 ]]></content>
       <categories>
         <category>tantela</category>
@@ -213,6 +191,28 @@
 <p>DTO 数据传输对象</p>
 <p>DO 领域对象（业务实体）</p>
 <p>PO 持久化对象</p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-18</title>
+    <url>/2021/08/18/%E6%97%A5%E5%BF%97-2021-8-18/</url>
+    <content><![CDATA[<h3 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h3><p><a class="link"   href="https://echarts.apache.org/zh/index.html" >Apache ECharts<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="ECharts-Json"><a href="#ECharts-Json" class="headerlink" title="ECharts + Json"></a>ECharts + Json</h3><p>data.json</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;text&quot;</span>:<span class="string">&quot;ECharts ajax示例&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;legend&quot;</span>: <span class="string">&quot;销量&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;xAxis-&quot;</span>:[<span class="string">&quot;衬衫&quot;</span>,<span class="string">&quot;羊毛衫&quot;</span>,<span class="string">&quot;雪纺衫&quot;</span>,<span class="string">&quot;裤子&quot;</span>,<span class="string">&quot;高跟鞋&quot;</span>,<span class="string">&quot;袜子&quot;</span>],</span><br><span class="line">  <span class="attr">&quot;series&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;销量&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;bar&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;data&quot;</span>: [<span class="number">5</span>, <span class="number">20</span>, <span class="number">36</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">20</span>]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p> Echarts-Json.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;main&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 600px;height: 400px;margin: 10% auto&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/json&quot;</span> <span class="attr">src</span>=<span class="string">&quot;data.json&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/jQuery/jquery.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;res/js/echarts/echarts.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">    $(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">        <span class="keyword">const</span> myChart = echarts.init(<span class="built_in">document</span>.getElementById(<span class="string">&#x27;main&#x27;</span>));</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        <span class="keyword">const</span> option = &#123;</span></span><br><span class="line"><span class="javascript">            <span class="attr">title</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">text</span>:<span class="string">&#x27;&#x27;</span></span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">tooltip</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">legend</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">xAxis</span>: &#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">yAxis</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">            <span class="attr">series</span>: [&#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">name</span>: <span class="string">&#x27;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">                <span class="attr">type</span>: <span class="string">&#x27;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">                <span class="attr">data</span>: []</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            ]</span></span><br><span class="line"><span class="javascript">        &#125;;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        myChart.setOption(option);</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">        $.getJSON(<span class="string">&#x27;data.json&#x27;</span>).done(<span class="function"><span class="keyword">function</span> (<span class="params">data</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">            myChart.setOption(&#123;</span></span><br><span class="line"><span class="javascript">                <span class="attr">title</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">text</span>:data.text</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">tooltip</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">legend</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.legend</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">xAxis</span>: &#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.xAxis</span></span><br><span class="line"><span class="javascript">                &#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">yAxis</span>: &#123;&#125;,</span></span><br><span class="line"><span class="javascript">                <span class="attr">series</span>: [&#123;</span></span><br><span class="line"><span class="javascript">                    <span class="attr">name</span>: data.series[<span class="number">0</span>].name,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">type</span>: data.series[<span class="number">0</span>].type,</span></span><br><span class="line"><span class="javascript">                    <span class="attr">data</span>: data.series[<span class="number">0</span>].data</span></span><br><span class="line"><span class="javascript">                &#125;</span></span><br><span class="line"><span class="javascript">                ]</span></span><br><span class="line"><span class="javascript">            &#125;)</span></span><br><span class="line"><span class="javascript">        &#125;)</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">    &#125;)</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>目录结构</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108181837828.png"
+                      alt="image-20210818183731728"
+                ></p>
 ]]></content>
       <categories>
         <category>tantela</category>
@@ -337,6 +337,153 @@
 <p>echarts（柱状、饼图）</p>
 <p>Layui（后台管理模板前端界面)</p>
 <p>stackoverflow</p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-21</title>
+    <url>/2021/08/21/%E6%97%A5%E5%BF%97-2021-8-21/</url>
+    <content><![CDATA[<h3 id="基于JWT的Token登录认证"><a href="#基于JWT的Token登录认证" class="headerlink" title="基于JWT的Token登录认证"></a>基于JWT的Token登录认证</h3><p><a class="link"   href="https://www.jianshu.com/p/e34a579c63a0" >使用JWT做用户登陆token校验<i class="fas fa-external-link-alt"></i></a> </p>
+<p><a class="link"   href="https://www.jianshu.com/p/fe67b4bb6f2c" >使用JWT实现Token认证<i class="fas fa-external-link-alt"></i></a></p>
+<p>先了解原理，真到用到的时候再说</p>
+<h3 id="LAYUI-MINI"><a href="#LAYUI-MINI" class="headerlink" title="LAYUI MINI"></a>LAYUI MINI</h3><p>.gitattributes   github强制语言设置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*.js linguist-language=JavaScript</span><br><span class="line">*.css linguist-language=JavaScript</span><br><span class="line">*.html linguist-language=JavaScript</span><br></pre></td></tr></table></figure>
+
+
+
+<p>index.html</p>
+<p><strong>meta</strong>部分</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;webkit&quot;</span>&gt;</span> 页面需默认用极速核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-comp&quot;</span>&gt;</span> 页面需默认用ie兼容内核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-stand&quot;</span>&gt;</span> 页面需默认用ie标准内核</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Access-Control-Allow-Origin&quot;</span> <span class="attr">content</span>=<span class="string">&quot;*&quot;</span>&gt;</span> </span><br><span class="line">请求的url是静态的html页面</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span>&gt;</span></span><br><span class="line">在iOS中有两个meta值，这两个会让网页内容以应用程序风格显示，并使状态栏透明</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;format-detection&quot;</span> <span class="attr">content</span>=<span class="string">&quot;telephone=no&quot;</span>&gt;</span></span><br><span class="line">指定是否将网页内容中的手机号码显示为拨号的超链接</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>css</strong></p>
+<p>layuimini.css  配色方案</p>
+<p>defalut.css </p>
+<p>layui.css</p>
+<p>welcome-2.html</p>
+<p><strong>css</strong></p>
+<p>layui.css</p>
+<p>public.css</p>
+<p>嵌入的style</p>
+<p>​    </p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-25</title>
+    <url>/2021/08/25/%E6%97%A5%E5%BF%97-2021-8-25/</url>
+    <content><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>CRUD</p>
+<hr>
+<h2 align="center">🥰🥰🥰欢迎访问我的GitHub</h2>
+<p align="center">
+  <a href="https://github.com/rtzhao"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://img.shields.io/badge/GitHub-ff79c6"
+                      alt="github"
+                ></a>
+  <a href="https://blog.csdn.net/RTyinying"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://img.shields.io/badge/CSDN-cf000e"
+                      alt="csdn"
+                ></a>
+  <a href="https://www.rtzhao.site"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://img.shields.io/badge/-RtZhao's%20Blog-blue"
+                      alt="csdn"
+                ></a>
+</p>
+
+<img  align='right' 
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://profile-counter.glitch.me/rtzhao/count.svg"
+                      alt="访客数量"
+                >
+
+<br/>
+<br/>
+<br/>
+
+<p><strong>技能栈</strong></p>
+<ul>
+<li><p>💻<strong>后端</strong>：Java，Servlet，JSP，JDBC，MyBatis，Spring，SpringMVC，SpringBoot，Dubbo，ZooKeeper</p>
+</li>
+<li><p>📝<strong>前端</strong>：HTML，CSS，JavaScript，jQuery，Ajax，Bootstrap，Layui，ECharts，Hexo</p>
+</li>
+<li><p>💼<strong>数据库</strong>：MySQL，SQLServer，Redis</p>
+</li>
+<li><p>💾<strong>项目管理</strong>：Maven，Git</p>
+</li>
+<li><p>🔏<strong>操作系统</strong>：Windows，Linux</p>
+</li>
+<li><p>🎬<strong>设计</strong>：Ps，Figma，Pr，Ae，Au，Maya，3ds Max，C4D，U3D，UE4</p>
+</li>
+<li><p>👓<strong>其他编程语言</strong>：C，C++，C#，Python，MATALAB</p>
+</li>
+<li><p>🥰<strong>爱好</strong>：<br>尼尔机械纪元、尼尔伪装者、刺客信条2、荒野大镖客救赎、冰汽时代、暗黑地牢、霓虹深渊、武士零。。。</p>
+<p>进击的巨人、铳梦、小林家的龙女仆、EVA。。。</p>
+<p>☕Java、🚲骑行、👸plmm。。。</p>
+</li>
+</ul>
+<p><strong>本周编码时长</strong></p>
+<!--START_SECTION:waka-->
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Week: 18 August, 2021 - 24 August, 2021</span><br><span class="line"></span><br><span class="line">Other   4 hrs 48 mins   ████████████████████▒░░░░   81.15 % </span><br><span class="line">Java    32 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.28 % </span><br><span class="line">HTML    19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.47 % </span><br><span class="line">XML     6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.78 % </span><br><span class="line">JSON    3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.88 % </span><br></pre></td></tr></table></figure>
+<!--END_SECTION:waka-->
+
+
+
+<p><strong>GitHub统计信息</strong></p>
+<p>下面的GitHub统计信息是来自于<a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
+<a href="https://github.com/rtzhao/rtzhao">
+  <img  align="center" 
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=rtzhao&show_icons=true&theme=radical"
+                      
+                >
+</a>
+
+<br/>
+<br/>
+
+<a href="https://github.com/rtzhao/rtzhao">
+  <img  align="center" 
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://github-readme-stats.vercel.app/api/top-langs/?username=rtzhao&layout=compact"
+                      
+                >
+</a>
+
+<br/>
+
+<hr>
+<p><a href="https://github4life.herokuapp.com/rtzhao"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://github4life.herokuapp.com/rtzhao.gif"
+                      alt="rtzhao&#39;s contribution graph as a Game of Life"
+                ></a></p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-24</title>
+    <url>/2021/08/24/%E6%97%A5%E5%BF%97-2021-8-24/</url>
+    <content><![CDATA[<h4 id="GitHUb统计信息"><a href="#GitHUb统计信息" class="headerlink" title="GitHUb统计信息"></a>GitHUb统计信息</h4><p><a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
+<p>修改仓库使用的语言</p>
+<h4 id="小工具"><a href="#小工具" class="headerlink" title="小工具"></a>小工具</h4><p><a class="link"   href="https://shields.io/" >shields<i class="fas fa-external-link-alt"></i></a> 图标生成小工具 适合编排进Markdown文档</p>
+<p><a class="link"   href="https://wakatime.com/dashboard" >WakaTime<i class="fas fa-external-link-alt"></i></a> 语言、编辑器等使用时间统计，可在github首页配置 <a class="link"   href="https://segmentfault.com/a/1190000040248192?utm_source=sf-similar-article" >参考文档<i class="fas fa-external-link-alt"></i></a></p>
+<h4 id="Layuimini-SpringBoot"><a href="#Layuimini-SpringBoot" class="headerlink" title="Layuimini + SpringBoot"></a>Layuimini + SpringBoot</h4><p>CRUD</p>
 ]]></content>
       <categories>
         <category>tantela</category>
@@ -539,153 +686,6 @@
 <p>L10N （是<em>“Localization”</em> 的缩写）<em>“</em> 本地化<em>”</em> 的意思，是将产品或软件针对特定国际语言和文化进行加工，使之符合特定区域市场的过程</p>
 <p>G11N (是<em>“Globalization”</em> 的缩写) “全球化”使产品或软件进入全球市场而进行的有关的商务活动</p>
 <p><a class="link"   href="https://www.w3.org/WAI/intro/aria" >WAI-ARIA<i class="fas fa-external-link-alt"></i></a> （the Accessible Rich Internet Applications Suite）无障碍富互联网应用规范集</p>
-]]></content>
-      <categories>
-        <category>tantela</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日志-2021-8-24</title>
-    <url>/2021/08/24/%E6%97%A5%E5%BF%97-2021-8-24/</url>
-    <content><![CDATA[<h4 id="GitHUb统计信息"><a href="#GitHUb统计信息" class="headerlink" title="GitHUb统计信息"></a>GitHUb统计信息</h4><p><a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
-<p>修改仓库使用的语言</p>
-<h4 id="小工具"><a href="#小工具" class="headerlink" title="小工具"></a>小工具</h4><p><a class="link"   href="https://shields.io/" >shields<i class="fas fa-external-link-alt"></i></a> 图标生成小工具 适合编排进Markdown文档</p>
-<p><a class="link"   href="https://wakatime.com/dashboard" >WakaTime<i class="fas fa-external-link-alt"></i></a> 语言、编辑器等使用时间统计，可在github首页配置 <a class="link"   href="https://segmentfault.com/a/1190000040248192?utm_source=sf-similar-article" >参考文档<i class="fas fa-external-link-alt"></i></a></p>
-<h4 id="Layuimini-SpringBoot"><a href="#Layuimini-SpringBoot" class="headerlink" title="Layuimini + SpringBoot"></a>Layuimini + SpringBoot</h4><p>CRUD</p>
-]]></content>
-      <categories>
-        <category>tantela</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日志-2021-8-21</title>
-    <url>/2021/08/21/%E6%97%A5%E5%BF%97-2021-8-21/</url>
-    <content><![CDATA[<h3 id="基于JWT的Token登录认证"><a href="#基于JWT的Token登录认证" class="headerlink" title="基于JWT的Token登录认证"></a>基于JWT的Token登录认证</h3><p><a class="link"   href="https://www.jianshu.com/p/e34a579c63a0" >使用JWT做用户登陆token校验<i class="fas fa-external-link-alt"></i></a> </p>
-<p><a class="link"   href="https://www.jianshu.com/p/fe67b4bb6f2c" >使用JWT实现Token认证<i class="fas fa-external-link-alt"></i></a></p>
-<p>先了解原理，真到用到的时候再说</p>
-<h3 id="LAYUI-MINI"><a href="#LAYUI-MINI" class="headerlink" title="LAYUI MINI"></a>LAYUI MINI</h3><p>.gitattributes   github强制语言设置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*.js linguist-language=JavaScript</span><br><span class="line">*.css linguist-language=JavaScript</span><br><span class="line">*.html linguist-language=JavaScript</span><br></pre></td></tr></table></figure>
-
-
-
-<p>index.html</p>
-<p><strong>meta</strong>部分</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;webkit&quot;</span>&gt;</span> 页面需默认用极速核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-comp&quot;</span>&gt;</span> 页面需默认用ie兼容内核</span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;renderer&quot;</span> <span class="attr">content</span>=<span class="string">&quot;ie-stand&quot;</span>&gt;</span> 页面需默认用ie标准内核</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Access-Control-Allow-Origin&quot;</span> <span class="attr">content</span>=<span class="string">&quot;*&quot;</span>&gt;</span> </span><br><span class="line">请求的url是静态的html页面</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span>&gt;</span></span><br><span class="line">在iOS中有两个meta值，这两个会让网页内容以应用程序风格显示，并使状态栏透明</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;format-detection&quot;</span> <span class="attr">content</span>=<span class="string">&quot;telephone=no&quot;</span>&gt;</span></span><br><span class="line">指定是否将网页内容中的手机号码显示为拨号的超链接</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><strong>css</strong></p>
-<p>layuimini.css  配色方案</p>
-<p>defalut.css </p>
-<p>layui.css</p>
-<p>welcome-2.html</p>
-<p><strong>css</strong></p>
-<p>layui.css</p>
-<p>public.css</p>
-<p>嵌入的style</p>
-<p>​    </p>
-]]></content>
-      <categories>
-        <category>tantela</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>日志-2021-8-25</title>
-    <url>/2021/08/25/%E6%97%A5%E5%BF%97-2021-8-25/</url>
-    <content><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>CRUD</p>
-<hr>
-<h2 align="center">🥰🥰🥰欢迎访问我的GitHub</h2>
-<p align="center">
-  <a href="https://github.com/rtzhao"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://img.shields.io/badge/GitHub-ff79c6"
-                      alt="github"
-                ></a>
-  <a href="https://blog.csdn.net/RTyinying"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://img.shields.io/badge/CSDN-cf000e"
-                      alt="csdn"
-                ></a>
-  <a href="https://www.rtzhao.site"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://img.shields.io/badge/-RtZhao's%20Blog-blue"
-                      alt="csdn"
-                ></a>
-</p>
-
-<img  align='right' 
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://profile-counter.glitch.me/rtzhao/count.svg"
-                      alt="访客数量"
-                >
-
-<br/>
-<br/>
-<br/>
-
-<p><strong>技能栈</strong></p>
-<ul>
-<li><p>💻<strong>后端</strong>：Java，Servlet，JSP，JDBC，MyBatis，Spring，SpringMVC，SpringBoot，Dubbo，ZooKeeper</p>
-</li>
-<li><p>📝<strong>前端</strong>：HTML，CSS，JavaScript，jQuery，Ajax，Bootstrap，Layui，ECharts，Hexo</p>
-</li>
-<li><p>💼<strong>数据库</strong>：MySQL，SQLServer，Redis</p>
-</li>
-<li><p>💾<strong>项目管理</strong>：Maven，Git</p>
-</li>
-<li><p>🔏<strong>操作系统</strong>：Windows，Linux</p>
-</li>
-<li><p>🎬<strong>设计</strong>：Ps，Figma，Pr，Ae，Au，Maya，3ds Max，C4D，U3D，UE4</p>
-</li>
-<li><p>👓<strong>其他编程语言</strong>：C，C++，C#，Python，MATALAB</p>
-</li>
-<li><p>🥰<strong>爱好</strong>：<br>尼尔机械纪元、尼尔伪装者、刺客信条2、荒野大镖客救赎、冰汽时代、暗黑地牢、霓虹深渊、武士零。。。</p>
-<p>进击的巨人、铳梦、小林家的龙女仆、EVA。。。</p>
-<p>☕Java、🚲骑行、👸plmm。。。</p>
-</li>
-</ul>
-<p><strong>本周编码时长</strong></p>
-<!--START_SECTION:waka-->
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Week: 18 August, 2021 - 24 August, 2021</span><br><span class="line"></span><br><span class="line">Other   4 hrs 48 mins   ████████████████████▒░░░░   81.15 % </span><br><span class="line">Java    32 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.28 % </span><br><span class="line">HTML    19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.47 % </span><br><span class="line">XML     6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.78 % </span><br><span class="line">JSON    3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.88 % </span><br></pre></td></tr></table></figure>
-<!--END_SECTION:waka-->
-
-
-
-<p><strong>GitHub统计信息</strong></p>
-<p>下面的GitHub统计信息是来自于<a class="link"   href="https://github.com/anuraghazra/github-readme-stats" >github-readme-stats<i class="fas fa-external-link-alt"></i></a>项目</p>
-<a href="https://github.com/rtzhao/rtzhao">
-  <img  align="center" 
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=rtzhao&show_icons=true&theme=radical"
-                      
-                >
-</a>
-
-<br/>
-<br/>
-
-<a href="https://github.com/rtzhao/rtzhao">
-  <img  align="center" 
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github-readme-stats.vercel.app/api/top-langs/?username=rtzhao&layout=compact"
-                      
-                >
-</a>
-
-<br/>
-
-<hr>
-<p><a href="https://github4life.herokuapp.com/rtzhao"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://github4life.herokuapp.com/rtzhao.gif"
-                      alt="rtzhao&#39;s contribution graph as a Game of Life"
-                ></a></p>
 ]]></content>
       <categories>
         <category>tantela</category>
