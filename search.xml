@@ -982,4 +982,64 @@
         <category>tantela</category>
       </categories>
   </entry>
+  <entry>
+    <title>日志-2021-8-27</title>
+    <url>/2021/08/27/%E6%97%A5%E5%BF%97-2021-8-27/</url>
+    <content><![CDATA[<h4 id="数据交换"><a href="#数据交换" class="headerlink" title="数据交换"></a>数据交换</h4><p>不想处理非json数据了，收发都是json算了，也好处理</p>
+<h4 id="刷新"><a href="#刷新" class="headerlink" title="刷新"></a>刷新</h4><p>（1）子页面请求成功后刷新父页面</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">url</span>:<span class="string">&quot;http://localhost:9091/test/updateUser?&quot;</span>+param,</span><br><span class="line">    <span class="attr">data</span>:&#123;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">type</span>:<span class="string">&quot;POST&quot;</span>,</span><br><span class="line">    <span class="attr">success</span>:<span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">        parent.location.reload();  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>（2）刷新当前表格</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">table.reload(<span class="string">&#x27;currentTableId&#x27;</span>, &#123;</span><br><span class="line">    <span class="attr">page</span>: &#123;<span class="attr">curr</span>: <span class="number">1</span>&#125;</span><br><span class="line">	&#125;</span><br><span class="line">);</span><br><span class="line"><span class="comment">// location.reload(); 或者这样</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="检索"><a href="#检索" class="headerlink" title="检索"></a>检索</h4><p>渲染table.render的异步接口，table.reload where设置额外参数</p>
+<p><strong>动态sql</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="operator">&lt;</span><span class="keyword">where</span><span class="operator">&gt;</span></span><br><span class="line">	<span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;username !=null and username != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line">		<span class="keyword">and</span> username <span class="keyword">like</span> concat(<span class="string">&#x27;%&#x27;</span>,#&#123;username&#125;,<span class="string">&#x27;%&#x27;</span>)</span><br><span class="line">	<span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span></span><br><span class="line">	<span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;gender !=null and gender != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line">		<span class="keyword">and</span> gender <span class="keyword">like</span> concat(<span class="string">&#x27;%&#x27;</span>,#&#123;gender&#125;,<span class="string">&#x27;%&#x27;</span>)</span><br><span class="line">	<span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span>	</span><br><span class="line">	<span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;startDate != null and endDate != null and startDate != &#x27;&#x27; and endDate != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line">		<span class="keyword">and</span> induction_time <span class="keyword">between</span> #&#123;startDate&#125; <span class="keyword">and</span> #&#123;endDate&#125;</span><br><span class="line">	<span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span></span><br><span class="line"><span class="operator">&lt;</span><span class="operator">/</span><span class="keyword">where</span><span class="operator">&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="springboot-控制台报错JSON-parse-error-Unrecognized-token-‘-‘-was-expecting-‘true‘-‘false‘-or-‘null‘"><a href="#springboot-控制台报错JSON-parse-error-Unrecognized-token-‘-‘-was-expecting-‘true‘-‘false‘-or-‘null‘" class="headerlink" title="springboot 控制台报错JSON parse error: Unrecognized token ‘*‘: was expecting (‘true‘, ‘false‘ or ‘null‘)"></a>springboot 控制台报错JSON parse error: Unrecognized token ‘*‘: was expecting (‘true‘, ‘false‘ or ‘null‘)</h5><p>前端返回数据格式不规范。<br>当dataType指定为json后,1.4+以上的jquery版本对json格式要求更加严格<br>如果不是严格的json格式,就不能正常执行success回调函数.</p>
+<p>JSON格式:　<br>1）键名称：用双引号 括起 　　<br>2）字符串：用使用双引号 括起<br>3）数字，布尔类型不需要 使用双引号 括起</p>
+<p><strong>用JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串</strong></p>
+<p>传递多组数据时，后台可用Map键获取值后转换为LinkedHashMap，再用key获取值</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> parData=&#123;</span><br><span class="line">    <span class="attr">jsonDataPro</span>:&#123;</span><br><span class="line">        <span class="attr">k1</span>: <span class="string">&quot;hello&quot;</span>,</span><br><span class="line">        <span class="string">&quot;k2&quot;</span>:<span class="string">&quot;World&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;k3&#x27;</span>:<span class="string">&quot;SpringBoot&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;k4&#x27;</span>:<span class="string">&#x27;MyBatis&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;k5&#x27;</span>:<span class="number">123</span>,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">myData</span>:&#123;</span><br><span class="line">        <span class="attr">l1</span>:<span class="string">&quot;jquery1.4+&quot;</span>,</span><br><span class="line">        <span class="attr">l2</span>:<span class="string">&quot;大傻逼&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">url</span>: <span class="string">&quot;http://localhost:9091/test/jsonTran&quot;</span>,</span><br><span class="line">    <span class="attr">contentType</span>: <span class="string">&#x27;application/json;charset=UTF-8&#x27;</span>,</span><br><span class="line">    <span class="attr">data</span>: <span class="built_in">JSON</span>.stringify(parData),</span><br><span class="line">    <span class="attr">type</span>: <span class="string">&quot;POST&quot;</span>,</span><br><span class="line">    <span class="attr">dataType</span>: <span class="string">&quot;json&quot;</span>,</span><br><span class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@RequestMapping(value = &quot;/jsonTran&quot;)</span></span><br><span class="line"><span class="meta">@ResponseBody</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">userDetail</span><span class="params">(<span class="meta">@RequestBody</span> Map&lt;String, Object&gt; map)</span> </span>&#123;</span><br><span class="line">    System.out.println(map);</span><br><span class="line">    System.out.println(map.get(<span class="string">&quot;jsonDataPro&quot;</span>));</span><br><span class="line">    LinkedHashMap linkedHashMap= (LinkedHashMap) map.get(<span class="string">&quot;jsonDataPro&quot;</span>);</span><br><span class="line">    System.out.println(linkedHashMap);</span><br><span class="line">    System.out.println(linkedHashMap.get(<span class="string">&quot;k1&quot;</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;Hello World&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="警告-Raw-use-of-parameterized-class-‘LinkedHashMap’"><a href="#警告-Raw-use-of-parameterized-class-‘LinkedHashMap’" class="headerlink" title="警告 Raw use of parameterized class ‘LinkedHashMap’"></a>警告 Raw use of parameterized class ‘LinkedHashMap’</h5><p>不建议使用原生态类型，使用原生态类型会丢失泛型在安全性和表述性方面掉的所有优势。</p>
+<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><p><strong><ins></strong>  </p>
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+
+
+<h4 id="Layui"><a href="#Layui" class="headerlink" title="Layui"></a>Layui</h4><h5 id="form"><a href="#form" class="headerlink" title="form"></a>form</h5><p><strong>lay-verify</strong></p>
+<ul>
+<li>required（必填项）</li>
+<li>phone</li>
+<li>email</li>
+<li>url</li>
+<li>number（数字）</li>
+<li>data</li>
+<li>identify（身份证）</li>
+<li>自定义值</li>
+</ul>
+<h4 id="Layuimini"><a href="#Layuimini" class="headerlink" title="Layuimini"></a>Layuimini</h4><p>404页面：设置个计时器，超过时间则显示对应数字<br>下拉选项：<br>三级联动下拉选择器:<br>文件上传：</p>
+<h4 id="智慧食堂"><a href="#智慧食堂" class="headerlink" title="智慧食堂"></a>智慧食堂</h4><p><a class="link"   href="http://www.zhihuishitang.cn/" >智慧食堂<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="http://www.tongxine.com/productshow_680.html" >同鑫科技 eHR管理平台<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://www.tianxia51.cn/" >智慧企业<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="http://www.mankebao.cn/index.html" >满客宝<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://xuexiao.bhuitong.com/index.htm" >博慧通<i class="fas fa-external-link-alt"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108271743553.png"
+                      alt="image-20210827174351415"
+                ></p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
 </search>
