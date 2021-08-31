@@ -1042,4 +1042,25 @@
         <category>tantela</category>
       </categories>
   </entry>
+  <entry>
+    <title>日志-2021-8-31</title>
+    <url>/2021/08/31/%E6%97%A5%E5%BF%97-2021-8-31/</url>
+    <content><![CDATA[<h4 id="Electron-Vue"><a href="#Electron-Vue" class="headerlink" title="Electron+Vue"></a>Electron+Vue</h4><p>开发跨平台桌面应用</p>
+<p>基于Chromium和 Node.js，使用 HTML、CSS和JavaScript来构建跨平台应用的跨平台开发框架，兼容 Mac、Windows 和 Linux。目前，Electron已经创建了包括VScode和Atom在内的大量应用。</p>
+<p><em>就是桌面端的程序里面放一个浏览器</em> 😓</p>
+<h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p>
+<ol>
+<li><p>echarts图表撑不满整个DOM </p>
+<p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><p>在echarts的dom上添加三个按钮</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-08-27T09:50:57.311Z</updated>
+  <updated>2021-08-31T09:04:09.697Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-8-31</title>
+    <link href="https://www.rtzhao.site/2021/08/31/%E6%97%A5%E5%BF%97-2021-8-31/"/>
+    <id>https://www.rtzhao.site/2021/08/31/%E6%97%A5%E5%BF%97-2021-8-31/</id>
+    <published>2021-08-31T00:46:01.000Z</published>
+    <updated>2021-08-31T09:04:09.697Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Electron-Vue"><a href="#Electron-Vue" class="headerlink" title="Electron+Vue"></a>Electron+Vue</h4><p>开发跨平台桌面应用</p><p>基于Chromium和 Node.js，使用 HTML、CSS和JavaScript来构建跨平台应用的跨平台开发框架，兼容 Mac、Windows 和 Linux。目前，Electron已经创建了包括VScode和Atom在内的大量应用。</p><p><em>就是桌面端的程序里面放一个浏览器</em> 😓</p><h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;Electron-Vue&quot;&gt;&lt;a href=&quot;#Electron-Vue&quot; class=&quot;headerlink&quot; title=&quot;Electron+Vue&quot;&gt;&lt;/a&gt;Electron+Vue&lt;/h4&gt;&lt;p&gt;开发跨平台桌面应用&lt;/p&gt;
+&lt;p&gt;基于Chromium和 N</summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日志-2021-8-27</title>
@@ -437,27 +460,6 @@
       
     <summary type="html">&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/zh-cn/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>First Blog</title>
-    <link href="https://www.rtzhao.site/2021/08/02/First-Blog/"/>
-    <id>https://www.rtzhao.site/2021/08/02/First-Blog/</id>
-    <published>2021-08-02T08:03:20.000Z</published>
-    <updated>2021-08-02T08:03:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Layui</strong><br>layui 是一套开源的 Web UI 解决方案,其内部采用的是自身经典的模块化规范,并遵循原生 HTML/CSS/JS 的开发方式,极易上手,拿来即用。</p><p><strong>MVVM</strong> （Model-View-ViewModel）它本质上就是MVC 的改进版。MVVM 就是将其中的View 的状态和行为抽象化，让我们将视图 UI 和业务逻辑分开。</p><p><strong>Gulp</strong> <a class="link"   href="https://www.gulpjs.com.cn/" >官网<i class="fas fa-external-link-alt"></i></a><br>好难用啊，教程少，案例少，错误解决方法少<br>改用webpage吧！！！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Layui&lt;/strong&gt;&lt;br&gt;layui 是一套开源的 Web UI 解决方案,其内部采用的是自身经典的模块化规范,并遵循原生 HTML/CSS/JS 的开发方式,极易上手,拿来即用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MVVM&lt;/strong&gt; （Mod</summary>
       
     
     
