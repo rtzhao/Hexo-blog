@@ -1110,13 +1110,13 @@
     <url>/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/</url>
     <content><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><p>====》echarts</p>
 <ol>
-<li><p>echarts图表撑不满整个DOM </p>
-<p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p>
+<li><p>echarts图表撑不满整个DOM =========！！✅grid属性中设置上下左右宽高等设置</p>
+<p>不必了 <a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p>
 </li>
-<li><p>在echarts的dom上添加三个按钮</p>
+<li><p>在echarts的dom上添加三个按钮=========！！❎普通的position定位未成功，可以在toolbox中自定义按钮，高亮的话不知道这么做，因为页面元素为canvas对象，不知道怎么获取内部的元素。</p>
 </li>
-<li><p>环形图中间的文字样式修改</p>
-</li>
+<li><p>环形图中间的文字样式修改============！！✅series中emphasis选项</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">emphasis: &#123;</span><br><span class="line">    <span class="attr">label</span>: &#123;</span><br><span class="line">       <span class="attr">show</span>: <span class="literal">true</span>,</span><br><span class="line">       <span class="attr">fontSize</span>: <span class="string">&#x27;18&#x27;</span>,</span><br><span class="line">       <span class="attr">fontWeight</span>: <span class="string">&#x27;normal&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><p>所有颜色的渐变效果</p>
 </li>
 <li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p>
@@ -1124,7 +1124,8 @@
 </ol>
 <p>====》layui</p>
 <ol>
-<li>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</li>
+<li>数据表格，下面的页数跳转</li>
+<li>如何加入进度条  😡既如何在table中加入其他样式</li>
 </ol>
 <p>====》😮</p>
 <ol>

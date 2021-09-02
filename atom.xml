@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-09-02T00:50:45.524Z</updated>
+  <updated>2021-09-02T05:19:47.214Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/"/>
     <id>https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/</id>
     <published>2021-09-02T00:48:19.000Z</published>
-    <updated>2021-09-02T00:50:45.524Z</updated>
+    <updated>2021-09-02T05:19:47.214Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><p>====》echarts</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li><li><p>环形图中间的文字样式修改</p></li><li><p>所有颜色的渐变效果</p></li><li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p></li></ol><p>====》layui</p><ol><li>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</li></ol><p>====》😮</p><ol><li>🤔CSS 切图</li></ol><p>=====》遗留</p><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><p>====》echarts</p><ol><li><p>echarts图表撑不满整个DOM =========！！✅grid属性中设置上下左右宽高等设置</p><p>不必了 <a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮=========！！❎普通的position定位未成功，可以在toolbox中自定义按钮，高亮的话不知道这么做，因为页面元素为canvas对象，不知道怎么获取内部的元素。</p></li><li><p>环形图中间的文字样式修改============！！✅series中emphasis选项</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">emphasis: &#123;</span><br><span class="line">    <span class="attr">label</span>: &#123;</span><br><span class="line">       <span class="attr">show</span>: <span class="literal">true</span>,</span><br><span class="line">       <span class="attr">fontSize</span>: <span class="string">&#x27;18&#x27;</span>,</span><br><span class="line">       <span class="attr">fontWeight</span>: <span class="string">&#x27;normal&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>所有颜色的渐变效果</p></li><li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p></li></ol><p>====》layui</p><ol><li>数据表格，下面的页数跳转</li><li>如何加入进度条  😡既如何在table中加入其他样式</li></ol><p>====》😮</p><ol><li>🤔CSS 切图</li></ol><p>=====》遗留</p><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul>]]></content>
     
     
       
       
     <summary type="html">&lt;h4 id=&quot;H5&quot;&gt;&lt;a href=&quot;#H5&quot; class=&quot;headerlink&quot; title=&quot;H5&quot;&gt;&lt;/a&gt;H5&lt;/h4&gt;&lt;p&gt;====》echarts&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;echarts图表撑不满整个DOM &lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;link&quot;</summary>
+&lt;li&gt;&lt;p&gt;echarts图表撑不满整个DOM =========！！✅grid属性中设置上下</summary>
       
     
     
