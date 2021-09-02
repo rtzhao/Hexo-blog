@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-08-31T09:04:09.697Z</updated>
+  <updated>2021-09-02T00:50:45.524Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-9-2</title>
+    <link href="https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/"/>
+    <id>https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/</id>
+    <published>2021-09-02T00:48:19.000Z</published>
+    <updated>2021-09-02T00:50:45.524Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><p>====》echarts</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li><li><p>环形图中间的文字样式修改</p></li><li><p>所有颜色的渐变效果</p></li><li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p></li></ol><p>====》layui</p><ol><li>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</li></ol><p>====》😮</p><ol><li>🤔CSS 切图</li></ol><p>=====》遗留</p><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;H5&quot;&gt;&lt;a href=&quot;#H5&quot; class=&quot;headerlink&quot; title=&quot;H5&quot;&gt;&lt;/a&gt;H5&lt;/h4&gt;&lt;p&gt;====》echarts&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;echarts图表撑不满整个DOM &lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;link&quot;</summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日志-2021-9-1</title>
+    <link href="https://www.rtzhao.site/2021/09/01/%E6%97%A5%E5%BF%97-2021-9-1/"/>
+    <id>https://www.rtzhao.site/2021/09/01/%E6%97%A5%E5%BF%97-2021-9-1/</id>
+    <published>2021-09-01T02:55:40.000Z</published>
+    <updated>2021-09-01T07:31:19.975Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li><li><p>环形图中间的文字样式修改</p></li><li><p>所有颜色的渐变效果</p></li><li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p></li><li><p>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</p></li><li><p>🤔CSS 切图</p></li></ol><p>​    =====》》》</p><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul><h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p>(1)<a class="link"   href="https://www.xp.cn/" >小皮面板<i class="fas fa-external-link-alt"></i></a></p><p>PhpStudy国内12年老牌公益软件，集安全，高效，功能与一体，已获得全球用户认可安装，运维也高效。<br>支持一键LAMP,LNMP,集群,监控,网站,FTP,数据库,JAVA等100多项服务器管理功能</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;ECharts&quot;&gt;&lt;a href=&quot;#ECharts&quot; class=&quot;headerlink&quot; title=&quot;ECharts&quot;&gt;&lt;/a&gt;ECharts&lt;/h4&gt;&lt;p&gt;=====TODO=====&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;echarts图表撑不满整个DOM &lt;</summary>
+      
+    
+    
+    
+    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日志-2021-8-31</title>
@@ -417,52 +466,6 @@
     
     
     <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>文档迁移说明</title>
-    <link href="https://www.rtzhao.site/2021/08/03/%E6%96%87%E6%A1%A3%E8%BF%81%E7%A7%BB%E8%AF%B4%E6%98%8E/"/>
-    <id>https://www.rtzhao.site/2021/08/03/%E6%96%87%E6%A1%A3%E8%BF%81%E7%A7%BB%E8%AF%B4%E6%98%8E/</id>
-    <published>2021-08-03T07:48:09.000Z</published>
-    <updated>2021-08-03T08:24:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>RSS迁移好像不太好使 <a class="link"   href="https://blog.csdn.net/RTyinying/rss/list" >我的CSDN<i class="fas fa-external-link-alt"></i></a></p><p>使用GitHub Actions 自动部署Hexo博客失败 <a class="link"   href="https://juejin.cn/post/6943895271751286821" >原文<i class="fas fa-external-link-alt"></i></a></p><h2 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h2><p>1）监视文件变动，立即生成静态文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --watch  </span><br></pre></td></tr></table></figure><p>2）完成后部署</p><p>生成完毕后自动部署网站</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;RSS迁移好像不太好使 &lt;a class=&quot;link&quot;   href=&quot;https://blog.csdn.net/RTyinying/rss/list&quot; &gt;我的CSDN&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    <category term="说明" scheme="https://www.rtzhao.site/categories/%E8%AF%B4%E6%98%8E/"/>
-    
-    
-    <category term="RSS,GitHub Actions" scheme="https://www.rtzhao.site/tags/RSS-GitHub-Actions/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Second Blog</title>
-    <link href="https://www.rtzhao.site/2021/08/03/Second-Blog/"/>
-    <id>https://www.rtzhao.site/2021/08/03/Second-Blog/</id>
-    <published>2021-08-03T05:40:08.000Z</published>
-    <updated>2021-08-03T05:43:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a class="link"   href="https://hexo.io/zh-cn/" >Hexo<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://keep-docs.xpoet.cn/" >Keep<i class="fas fa-external-link-alt"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/zh-cn/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://</summary>
-      
-    
-    
     
     
   </entry>

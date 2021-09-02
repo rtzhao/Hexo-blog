@@ -1063,4 +1063,90 @@
         <category>tantela</category>
       </categories>
   </entry>
+  <entry>
+    <title>日志-2021-9-1</title>
+    <url>/2021/09/01/%E6%97%A5%E5%BF%97-2021-9-1/</url>
+    <content><![CDATA[<h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p>
+<ol>
+<li><p>echarts图表撑不满整个DOM </p>
+<p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><p>在echarts的dom上添加三个按钮</p>
+</li>
+<li><p>环形图中间的文字样式修改</p>
+</li>
+<li><p>所有颜色的渐变效果</p>
+</li>
+<li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p>
+</li>
+<li><p>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</p>
+</li>
+<li><p>🤔CSS 切图</p>
+</li>
+</ol>
+<p>​    =====》》》</p>
+<p>MQ</p>
+<p>自平衡二叉查找树</p>
+<p>java 上传插件</p>
+<p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p>
+<p>文件上传相关：</p>
+<ul>
+<li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p>(1)<a class="link"   href="https://www.xp.cn/" >小皮面板<i class="fas fa-external-link-alt"></i></a></p>
+<p>PhpStudy国内12年老牌公益软件，集安全，高效，功能与一体，已获得全球用户认可安装，运维也高效。<br>支持一键LAMP,LNMP,集群,监控,网站,FTP,数据库,JAVA等100多项服务器管理功能</p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-9-2</title>
+    <url>/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/</url>
+    <content><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><p>====》echarts</p>
+<ol>
+<li><p>echarts图表撑不满整个DOM </p>
+<p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><p>在echarts的dom上添加三个按钮</p>
+</li>
+<li><p>环形图中间的文字样式修改</p>
+</li>
+<li><p>所有颜色的渐变效果</p>
+</li>
+<li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p>
+</li>
+</ol>
+<p>====》layui</p>
+<ol>
+<li>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</li>
+</ol>
+<p>====》😮</p>
+<ol>
+<li>🤔CSS 切图</li>
+</ol>
+<p>=====》遗留</p>
+<p>MQ</p>
+<p>自平衡二叉查找树</p>
+<p>java 上传插件</p>
+<p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p>
+<p>文件上传相关：</p>
+<ul>
+<li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
 </search>
