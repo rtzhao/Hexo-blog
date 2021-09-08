@@ -1203,12 +1203,7 @@
     <title>日志-2021-9-3</title>
     <url>/2021/09/03/%E6%97%A5%E5%BF%97-2021-9-3/</url>
     <content><![CDATA[<p>✨✨✨<strong>实习日志系列今日完结</strong>✨✨✨</p>
-<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><h4 id="遗留"><a href="#遗留" class="headerlink" title="遗留"></a>遗留</h4><p>MQ</p>
-<p>自平衡二叉查找树</p>
-<p>java 上传插件  </p>
-<p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p>
-<p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p>
-<p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><h3 id="遗留"><a href="#遗留" class="headerlink" title="遗留"></a>遗留</h3><h4 id="MQ"><a href="#MQ" class="headerlink" title="MQ"></a>MQ</h4><h4 id="自平衡二叉查找树"><a href="#自平衡二叉查找树" class="headerlink" title="自平衡二叉查找树"></a>自平衡二叉查找树</h4><h4 id="java-上传插件"><a href="#java-上传插件" class="headerlink" title="java 上传插件"></a>java 上传插件</h4><p><strong>ftp</strong></p>
 <p>文件上传相关：</p>
 <ul>
 <li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li>
@@ -1216,9 +1211,36 @@
 <li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li>
 <li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
+<h4 id="自定义keep主题属性"><a href="#自定义keep主题属性" class="headerlink" title="自定义keep主题属性"></a>自定义keep主题属性</h4><h4 id="工具尝试"><a href="#工具尝试" class="headerlink" title="工具尝试"></a>工具尝试</h4><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a>：</p>
+<p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a>：</p>
+<p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a>：服务未开启</p>
 ]]></content>
       <categories>
         <category>tantela</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-9-8</title>
+    <url>/2021/09/08/%E6%97%A5%E5%BF%97-2021-9-8/</url>
+    <content><![CDATA[<h3 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h3><p><a class="link"   href="https://blog.csdn.net/RTyinying/article/details/120189135" >分布式 第五章 Nginx<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="域名-ip-ddns-dns"><a href="#域名-ip-ddns-dns" class="headerlink" title="域名 ip ddns dns"></a>域名 ip ddns dns</h3><p><a class="link"   href="https://blog.csdn.net/f641385712/article/details/105193589" >一文搞懂常用的网络概念：域名、动态IP、DNS、DDNS<i class="fas fa-external-link-alt"></i></a></p>
+<h4 id="ip"><a href="#ip" class="headerlink" title="ip"></a>ip</h4><ul>
+<li>IPv4、IPv6</li>
+<li>静态ip、动态ip</li>
+</ul>
+<h4 id="域名和域名解析"><a href="#域名和域名解析" class="headerlink" title="域名和域名解析"></a>域名和域名解析</h4><p>域名解析的类型</p>
+<ul>
+<li>主机名（A记录）</li>
+<li>别名（CNAME记录）</li>
+<li>邮件交换记录（MX记录）</li>
+<li>文本记录（TXT记录）</li>
+</ul>
+<h4 id="dns"><a href="#dns" class="headerlink" title="dns"></a>dns</h4><h4 id="ddns"><a href="#ddns" class="headerlink" title="ddns"></a>ddns</h4><p>以把变化的IP动态地映射到域名上，通过<strong>不变的域名</strong>访问变化IP的主机；</p>
+<p><a class="link"   href="https://help.aliyun.com/document_detail/141482.html" >使用Alibaba Cloud SDK for Java实现动态域名解析（DDNS)<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p><a class="link"   href="http://ace.jeka.by/" >Ace Admin<i class="fas fa-external-link-alt"></i></a> 基于bootstrap的轻量级后台UI框架</p>
+]]></content>
+      <categories>
+        <category>HIT</category>
       </categories>
   </entry>
 </search>
