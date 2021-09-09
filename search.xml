@@ -1243,4 +1243,86 @@
         <category>HIT</category>
       </categories>
   </entry>
+  <entry>
+    <title>日志-2021-9-9</title>
+    <url>/2021/09/09/%E6%97%A5%E5%BF%97-2021-9-9/</url>
+    <content><![CDATA[<h3 id="Spring-Session"><a href="#Spring-Session" class="headerlink" title="Spring Session"></a>Spring Session</h3><p><a href="%5Bttps://blog.csdn.net/RTyinying/article/details/120199911%5D(https://blog.csdn.net/RTyinying/article/details/120199911)">分布式 第六章 Spring Session</a></p>
+<h3 id="FastDFS-分布式文件系统"><a href="#FastDFS-分布式文件系统" class="headerlink" title="FastDFS 分布式文件系统"></a>FastDFS 分布式文件系统</h3><p>学到FastFDS在web项目中的应用</p>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p>@RestController 相当于 @Controller + @ResponseBody</p>
+<p>@Resource和@Autowired注解都是用来实现依赖注入的。只是@AutoWried按by type自动注入，而@Resource默认按byName自动注入</p>
+<p><strong>Linux</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">上传下载</span></span><br><span class="line">sz ...</span><br><span class="line">rz -y</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">查看进程</span></span><br><span class="line">ps -ef | grep ...</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">查看防火墙状态、暂时关闭防火墙</span></span><br><span class="line">systemctl status firewalld</span><br><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>HIT</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>日志-2021-8-30</title>
+    <url>/2021/08/30/%E6%97%A5%E5%BF%97-2021-8-30/</url>
+    <content><![CDATA[<h4 id="Layuimini"><a href="#Layuimini" class="headerlink" title="Layuimini"></a>Layuimini</h4><h5 id="下拉选项：tableSelect"><a href="#下拉选项：tableSelect" class="headerlink" title="下拉选项：tableSelect"></a>下拉选项：tableSelect</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;layui-form-item&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;layui-form-label&quot;</span>&gt;</span>测试单选<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;layui-input-inline&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;请输入&quot;</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">class</span>=<span class="string">&quot;layui-input&quot;</span> <span class="attr">id</span>=<span class="string">&quot;demo4&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">tableSelect.render(&#123;</span><br><span class="line">    <span class="attr">elem</span>: <span class="string">&#x27;#demo4&#x27;</span>,</span><br><span class="line">    <span class="attr">checkedKey</span>: <span class="string">&#x27;id&#x27;</span>,</span><br><span class="line">    <span class="attr">searchKey</span>: <span class="string">&#x27;username&#x27;</span>,</span><br><span class="line">    <span class="attr">searchPlaceholder</span>: <span class="string">&#x27;姓名测试关键词搜索&#x27;</span>,</span><br><span class="line">    <span class="attr">height</span>: <span class="string">&#x27;400&#x27;</span>,  <span class="comment">//自定义高度  不行 layui.css 中 layui-input标签的宽高被限制</span></span><br><span class="line">    <span class="attr">width</span>: <span class="string">&#x27;1200&#x27;</span>,  <span class="comment">//自定义宽度</span></span><br><span class="line">    <span class="attr">table</span>: &#123;</span><br><span class="line">        <span class="attr">url</span>: <span class="string">&#x27;http://localhost:9091/test/user&#x27;</span>,</span><br><span class="line">        <span class="attr">cols</span>: [[</span><br><span class="line">            &#123;<span class="attr">type</span>: <span class="string">&#x27;radio&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;uid&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;ID&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;username&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;姓名&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;gender&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;性别&#x27;</span>&#125;</span><br><span class="line">        ]]</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">done</span>: <span class="function"><span class="keyword">function</span> (<span class="params">elem, data</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> NEWJSON = [];</span><br><span class="line">        <span class="keyword">var</span> result = <span class="built_in">JSON</span>.stringify(data.data);</span><br><span class="line">        layer.alert(result, &#123;</span><br><span class="line">            <span class="attr">title</span>: <span class="string">&#x27;选择的搜索信息&#x27;</span></span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        layui.each(data.data, <span class="function"><span class="keyword">function</span> (<span class="params">index, item</span>) </span>&#123;</span><br><span class="line">            NEWJSON.push(item.username)</span><br><span class="line">        &#125;)</span><br><span class="line">        elem.val(NEWJSON.join(<span class="string">&quot;,&quot;</span>))</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="省市县区三级联动下拉选择器：layarea"><a href="#省市县区三级联动下拉选择器：layarea" class="headerlink" title="省市县区三级联动下拉选择器：layarea"></a>省市县区三级联动下拉选择器：layarea</h5><p>数据都写死在本地，直接用</p>
+<h5 id="富文本编辑器-wangEditor"><a href="#富文本编辑器-wangEditor" class="headerlink" title="富文本编辑器 wangEditor"></a>富文本编辑器 <a class="link"   href="https://www.wangeditor.com/" >wangEditor<i class="fas fa-external-link-alt"></i></a></h5><p>感觉这玩意很鸡肋，不过可以用在用户反馈方面。</p>
+<p>该富文本编辑器的图片、视频上传需要设置接口等等额外信息，可以用图床api接口【七牛云】【SM.MS】（到也是可以自己写一个API暴露一个上传接口，返回图片路径，以后可以尝试一下）</p>
+<p><a class="link"   href="https://sm.ms/" >SM.MS<i class="fas fa-external-link-alt"></i></a> 可以个人使用，注册之后获取一个token（Make sure you’ve stored your API key somewhere secure and never share them publicly.）</p>
+<figure class="highlight http"><table><tr><td class="code"><pre><span class="line">Base  https://sm.ms/api/v2/</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight http"><table><tr><td class="code"><pre><span class="line">POST  /upload</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108301608268.png"
+                      alt="image-20210830160800226"
+                ></p>
+<h5 id="文件上组件-zyupload"><a href="#文件上组件-zyupload" class="headerlink" title="文件上组件  zyupload"></a>文件上组件  zyupload</h5><p>与富文本编辑器中的文件上传类似，需要提供上上传接口，并对返回结果处理，成功了要显示文件路径</p>
+<p>这个组件有个问题，图片预览时的尺寸为高度写死，图片显示不全，同时没有文本格式的预览图片</p>
+<h5 id=""><a href="#" class="headerlink" title=""></a></h5><h4 id="前端与后台数据交互的多种方式"><a href="#前端与后台数据交互的多种方式" class="headerlink" title="前端与后台数据交互的多种方式"></a>前端与后台数据交互的多种方式</h4><p>(1) ajax的data部分 ◀▶</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">data</span>:....</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>(2) 表单传递 ▶</p>
+<p>前端使用表单时，为name属性赋值，action属性标识提交数据的地址，method属性指明提交方式</p>
+<p> 后台controller层方法的参数只要与name的值相同，即可获取到该属性的值。</p>
+<p>(3) session域或request域  ◀</p>
+<p>后台将值存入request域里面，使用request.getsession.setAttribute(“名字”,”值”)</p>
+<p>前台使用sessionScope.名字取值</p>
+<p>(4) 通过url字符串拼接向后台提交数据▶</p>
+<ul>
+<li>ajax的url中拼接数据</li>
+<li>window.location.href指定路径提交数据</li>
+<li>通过a标签的href属性提交数据</li>
+</ul>
+<h4 id="后台"><a href="#后台" class="headerlink" title="后台"></a>后台</h4><p><a class="link"   href="https://www.stylefeng.cn/" >GUNS<i class="fas fa-external-link-alt"></i></a> 更简洁的代码，可插拔式架构，5年磨一剑，帮助中、小企业解决前后端架构问题</p>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p><strong>雪碧图</strong>（CSS Sprites）： 一种CSS图像合并技术,该方法是将小图标和背景图像合并到一张图片上,然后利用css的背景定位来显示需要显示的图片部分</p>
+<p><strong>Dreamweaver</strong>：上个世纪的产品了，建议不用；傻瓜式，好low啊； 公元2021年，看老师课件有的还写这个</p>
+<p><strong>切图仔</strong>：早期CSS 还相对较弱，大量的设计效果不是通过样式可以做到的。需要前端岗位工作者把设计稿内一些图形元素从 PS 等原始设计稿内裁切出来，放在页面的 img 标签中或者 CSS background-image 样式中使用。现在被用为自嘲</p>
+<p><strong>图书</strong>：</p>
+<p>计算机组成原理 唐朔飞 高教</p>
+<p>计算机体系结构 王志英 清华</p>
+<h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><p>MQ</p>
+<p>自平衡二叉查找树</p>
+<p>java 上传插件</p>
+<p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p>
+<p>文件上传相关：</p>
+<ul>
+<li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+<p>我有个设想建自己的图床 （.exe \网页 + 打开文件夹\拖拽上传+调后台接口存在服务器目录上，返回url地址）</p>
+<p>目前使用的PicGo，为私人开发管理，好在都存储在个人github仓库中</p>
+]]></content>
+      <categories>
+        <category>tantela</category>
+      </categories>
+  </entry>
 </search>
