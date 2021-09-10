@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-09-09T14:15:03.960Z</updated>
+  <updated>2021-09-10T13:18:04.495Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日志-2021-9-10</title>
+    <link href="https://www.rtzhao.site/2021/09/10/%E6%97%A5%E5%BF%97-2021-9-10/"/>
+    <id>https://www.rtzhao.site/2021/09/10/%E6%97%A5%E5%BF%97-2021-9-10/</id>
+    <published>2021-09-10T00:34:47.000Z</published>
+    <updated>2021-09-10T13:18:04.495Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="FastDFS"><a href="#FastDFS" class="headerlink" title="FastDFS"></a>FastDFS</h3><p><a class="link"   href="https://blog.csdn.net/RTyinying/article/details/120200573" >分布式 第七章 FastDFS<i class="fas fa-external-link-alt"></i></a></p><h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a>RabbitMQ</h3><p>学到SpringBoot集成RabbitMQ</p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ol><li><p>千万注意，远程访问千万不要访问大数据，也不要返回大数据</p></li><li><p><strong>Java assert</strong></p></li></ol><blockquote><p>Java2在1.4中新增了一个关键字：assert。在程序开发过程中使用它创建一个断言(assertion)。它的语法形式有如下所示的两种形式：<br>1、assert condition;<br>  这里condition是一个必须为真(true)的表达式。如果表达式的结果为true，那么断言为真，并且无任何行动<br>如果表达式为false，则断言失败，则会抛出一个AssertionError对象。这个AssertionError继承于Error对象，<br>而Error继承于Throwable，Error是和Exception并列的一个错误对象，通常用于表达系统级运行错误。<br>2、asser condition:expr;<br>  这里condition是和上面一样的，这个冒号后跟的是一个表达式，通常用于断言失败后的提示信息，说白了，它是一个传到AssertionError构造函数的值，如果断言失败，该值被转化为它对应的字符串，并显示出来。</p></blockquote><ol start="3"><li>上传文件前首先打开fastdfs的storage和tracker，然后关闭Linux的防火墙，这样才有正常上传的前提</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;FastDFS&quot;&gt;&lt;a href=&quot;#FastDFS&quot; class=&quot;headerlink&quot; title=&quot;FastDFS&quot;&gt;&lt;/a&gt;FastDFS&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://blog.csdn.net/RTyi</summary>
+      
+    
+    
+    
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>日志-2021-9-9</title>
@@ -444,26 +466,6 @@
     
     
     <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.rtzhao.site/2021/08/15/hello-world/"/>
-    <id>https://www.rtzhao.site/2021/08/15/hello-world/</id>
-    <published>2021-08-15T04:03:04.419Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
-      
-    
-    
     
     
   </entry>
