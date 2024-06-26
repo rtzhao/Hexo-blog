@@ -6,7 +6,7 @@
   <link href="https://www.rtzhao.site/atom.xml" rel="self"/>
   
   <link href="https://www.rtzhao.site/"/>
-  <updated>2021-09-29T08:13:02.763Z</updated>
+  <updated>2024-06-26T15:24:31.626Z</updated>
   <id>https://www.rtzhao.site/</id>
   
   <author>
@@ -17,18 +17,83 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>日志-2021-9-29</title>
-    <link href="https://www.rtzhao.site/2021/09/29/%E6%97%A5%E5%BF%97-2021-9-29/"/>
-    <id>https://www.rtzhao.site/2021/09/29/%E6%97%A5%E5%BF%97-2021-9-29/</id>
-    <published>2021-09-29T08:09:11.000Z</published>
-    <updated>2021-09-29T08:13:02.763Z</updated>
+    <title>2024test</title>
+    <link href="https://www.rtzhao.site/2024/06/26/2024test/"/>
+    <id>https://www.rtzhao.site/2024/06/26/2024test/</id>
+    <published>2024-06-26T15:24:31.000Z</published>
+    <updated>2024-06-26T15:24:31.626Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><p>继续回顾基础篇</p>]]></content>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2024重启</title>
+    <link href="https://www.rtzhao.site/2024/06/26/2024%E9%87%8D%E5%90%AF/"/>
+    <id>https://www.rtzhao.site/2024/06/26/2024%E9%87%8D%E5%90%AF/</id>
+    <published>2024-06-26T15:03:49.000Z</published>
+    <updated>2024-06-26T15:23:40.348Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>1）新建文档</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &lt;title&gt;</span><br></pre></td></tr></table></figure><p>2）监视文件变动，立即生成静态文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --watch  </span><br></pre></td></tr></table></figure><p>3）完成后部署</p><p>生成完毕后自动部署网站</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;Python&quot;&gt;&lt;a href=&quot;#Python&quot; class=&quot;headerlink&quot; title=&quot;Python&quot;&gt;&lt;/a&gt;Python&lt;/h3&gt;&lt;p&gt;继续回顾基础篇&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;p&gt;1）新建文档&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td </summary>
+      
+    
+    
+    
+    
+    <category term="paper" scheme="https://www.rtzhao.site/tags/paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023重启</title>
+    <link href="https://www.rtzhao.site/2023/03/03/2023%E9%87%8D%E5%90%AF/"/>
+    <id>https://www.rtzhao.site/2023/03/03/2023%E9%87%8D%E5%90%AF/</id>
+    <published>2023-03-03T04:36:49.000Z</published>
+    <updated>2023-03-03T04:40:58.567Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul><li>想重拾vue</li><li>标日</li><li>完善声标库</li><li>文本可视化+社会网络传播</li></ul><h2 id="课程任务"><a href="#课程任务" class="headerlink" title="课程任务"></a>课程任务</h2><ul><li>5周开始的助教</li><li>7周的NCDN</li><li>3-25 自然辩证法</li><li>3-15 设计伦理</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;计划&quot;&gt;&lt;a href=&quot;#计划&quot; class=&quot;headerlink&quot; title=&quot;计划&quot;&gt;&lt;/a&gt;计划&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;想重拾vue&lt;/li&gt;
+&lt;li&gt;标日&lt;/li&gt;
+&lt;li&gt;完善声标库&lt;/li&gt;
+&lt;li&gt;文本可视化+社会网络传播&lt;/li&gt;
+&lt;/u</summary>
+      
+    
+    
+    
+    
+    <category term="hit" scheme="https://www.rtzhao.site/tags/hit/"/>
+    
+    <category term="vue" scheme="https://www.rtzhao.site/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日志-2021-11-16</title>
+    <link href="https://www.rtzhao.site/2021/11/16/%E6%97%A5%E5%BF%97-2021-11-16/"/>
+    <id>https://www.rtzhao.site/2021/11/16/%E6%97%A5%E5%BF%97-2021-11-16/</id>
+    <published>2021-11-16T10:38:19.000Z</published>
+    <updated>2021-11-16T10:40:04.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>收集建材网、中钢网数据</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;收集建材网、中钢网数据&lt;/p&gt;
 </summary>
       
     
@@ -40,41 +105,22 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-27</title>
-    <link href="https://www.rtzhao.site/2021/09/28/%E6%97%A5%E5%BF%97-2021-9-27/"/>
-    <id>https://www.rtzhao.site/2021/09/28/%E6%97%A5%E5%BF%97-2021-9-27/</id>
-    <published>2021-09-28T06:09:06.000Z</published>
-    <updated>2021-09-28T06:10:04.183Z</updated>
+    <title>日志-2021-11-15</title>
+    <link href="https://www.rtzhao.site/2021/11/15/%E6%97%A5%E5%BF%97-2021-11-15/"/>
+    <id>https://www.rtzhao.site/2021/11/15/%E6%97%A5%E5%BF%97-2021-11-15/</id>
+    <published>2021-11-15T10:38:03.000Z</published>
+    <updated>2021-11-16T10:41:33.143Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h3><h4 id="Vue-basic"><a href="#Vue-basic" class="headerlink" title="Vue_basic"></a>Vue_basic</h4><p>学到p34 Vue数据监视的原理</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;Vue&quot;&gt;&lt;a href=&quot;#Vue&quot; class=&quot;headerlink&quot; title=&quot;Vue&quot;&gt;&lt;/a&gt;Vue&lt;/h3&gt;&lt;h4 id=&quot;Vue-basic&quot;&gt;&lt;a href=&quot;#Vue-basic&quot; class=&quot;headerlink&quot; title=&quot;Vue</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-28</title>
-    <link href="https://www.rtzhao.site/2021/09/28/%E6%97%A5%E5%BF%97-2021-9-28/"/>
-    <id>https://www.rtzhao.site/2021/09/28/%E6%97%A5%E5%BF%97-2021-9-28/</id>
-    <published>2021-09-28T06:08:47.000Z</published>
-    <updated>2021-09-28T06:16:07.370Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="gs-robot"><a href="#gs-robot" class="headerlink" title="gs-robot"></a>gs-robot</h3><p>U3D项目交接，后续可能还会参与完成一部分内容</p><h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><p>学到Stream消息驱动，目前Xshell连接虚拟机出现问题，学习暂时告一段落</p><h3 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h3><p>vue学习暂时告一段落</p><h3 id="12-xue"><a href="#12-xue" class="headerlink" title="12-xue"></a>12-xue</h3><p>分配的任务为python爬虫，目前仅有相关基础知识以及特定领域处理的经验，目前该部分内容的学习需要提上日程</p>]]></content>
+    <content type="html"><![CDATA[<p>收集观研报告网数据</p><p>国家统计局具体页面打不开</p><p>采购通 目前不太行，没有目标1数据</p><p>中钢网为一天天各地区的数据，一直到2005年</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;gs-robot&quot;&gt;&lt;a href=&quot;#gs-robot&quot; class=&quot;headerlink&quot; title=&quot;gs-robot&quot;&gt;&lt;/a&gt;gs-robot&lt;/h3&gt;&lt;p&gt;U3D项目交接，后续可能还会参与完成一部分内容&lt;/p&gt;
-&lt;h3 id=&quot;SpringClou</summary>
+    <summary type="html">&lt;p&gt;收集观研报告网数据&lt;/p&gt;
+&lt;p&gt;国家统计局具体页面打不开&lt;/p&gt;
+&lt;p&gt;采购通 目前不太行，没有目标1数据&lt;/p&gt;
+&lt;p&gt;中钢网为一天天各地区的数据，一直到2005年&lt;/p&gt;
+</summary>
       
     
     
@@ -85,40 +131,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-26</title>
-    <link href="https://www.rtzhao.site/2021/09/26/%E6%97%A5%E5%BF%97-2021-9-26/"/>
-    <id>https://www.rtzhao.site/2021/09/26/%E6%97%A5%E5%BF%97-2021-9-26/</id>
-    <published>2021-09-26T15:20:27.000Z</published>
-    <updated>2021-09-26T15:21:27.416Z</updated>
+    <title>日志-2021-11-12</title>
+    <link href="https://www.rtzhao.site/2021/11/12/%E6%97%A5%E5%BF%97-2021-11-12/"/>
+    <id>https://www.rtzhao.site/2021/11/12/%E6%97%A5%E5%BF%97-2021-11-12/</id>
+    <published>2021-11-12T08:50:58.000Z</published>
+    <updated>2021-11-14T08:53:16.185Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h3><h4 id="Vue-basic"><a href="#Vue-basic" class="headerlink" title="Vue_basic"></a>Vue_basic</h4>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;Vue&quot;&gt;&lt;a href=&quot;#Vue&quot; class=&quot;headerlink&quot; title=&quot;Vue&quot;&gt;&lt;/a&gt;Vue&lt;/h3&gt;&lt;h4 id=&quot;Vue-basic&quot;&gt;&lt;a href=&quot;#Vue-basic&quot; class=&quot;headerlink&quot; title=&quot;Vue</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-25</title>
-    <link href="https://www.rtzhao.site/2021/09/25/%E6%97%A5%E5%BF%97-2021-9-25/"/>
-    <id>https://www.rtzhao.site/2021/09/25/%E6%97%A5%E5%BF%97-2021-9-25/</id>
-    <published>2021-09-25T03:23:13.000Z</published>
-    <updated>2021-09-25T03:29:11.403Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="Cloud-Stream"><a href="#Cloud-Stream" class="headerlink" title="Cloud Stream"></a>Cloud Stream</h4>]]></content>
+    <content type="html"><![CDATA[<p>搬公寓</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;Cloud-Stream&quot;&gt;&lt;a href=&quot;#Cloud</summary>
+    <summary type="html">&lt;p&gt;搬公寓&lt;/p&gt;
+</summary>
       
     
     
@@ -129,40 +154,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-17</title>
-    <link href="https://www.rtzhao.site/2021/09/17/%E6%97%A5%E5%BF%97-2021-9-17/"/>
-    <id>https://www.rtzhao.site/2021/09/17/%E6%97%A5%E5%BF%97-2021-9-17/</id>
-    <published>2021-09-17T02:51:26.000Z</published>
-    <updated>2021-09-17T06:32:28.588Z</updated>
+    <title>日志-2021-11-11</title>
+    <link href="https://www.rtzhao.site/2021/11/11/%E6%97%A5%E5%BF%97-2021-11-11/"/>
+    <id>https://www.rtzhao.site/2021/11/11/%E6%97%A5%E5%BF%97-2021-11-11/</id>
+    <published>2021-11-11T05:01:46.000Z</published>
+    <updated>2021-11-14T08:53:42.453Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="服务配置-SpringCloud-Config"><a href="#服务配置-SpringCloud-Config" class="headerlink" title="服务配置 SpringCloud Config"></a>服务配置 SpringCloud Config</h4><p>手动发Post请求刷新配置</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST &quot;http://localhost:3355/actuator/refresh&quot;</span><br></pre></td></tr></table></figure><p>广播，一次通知，处处更新—-需要引入消息总线 SpringCloud Bus</p><h4 id="消息总线-SpringCloud-Bus"><a href="#消息总线-SpringCloud-Bus" class="headerlink" title="消息总线 SpringCloud Bus"></a>消息总线 SpringCloud Bus</h4><p>支持的消息代理：RabbitMQ、Kafka</p><h4 id="Spring-Stream"><a href="#Spring-Stream" class="headerlink" title="Spring Stream"></a>Spring Stream</h4><p>不再关注具体MQ的细节，只需要一种适配绑定的方式，自动的给我们在各种MQ内切换。—-ActiveMQ、RabbitMQ、RocketMQ、Kafka</p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;服务配置-SpringCloud-Config&quot;&gt;&lt;a h</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-16</title>
-    <link href="https://www.rtzhao.site/2021/09/16/%E6%97%A5%E5%BF%97-2021-9-16/"/>
-    <id>https://www.rtzhao.site/2021/09/16/%E6%97%A5%E5%BF%97-2021-9-16/</id>
-    <published>2021-09-16T12:19:30.000Z</published>
-    <updated>2021-09-16T13:53:54.633Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="服务配置"><a href="#服务配置" class="headerlink" title="服务配置"></a>服务配置</h4><p>分环境部署：dev、test、prod、beta、release</p><h4 id="服务总线"><a href="#服务总线" class="headerlink" title="服务总线"></a>服务总线</h4>]]></content>
+    <content type="html"><![CDATA[<p>收拾行李</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;服务配置&quot;&gt;&lt;a href=&quot;#服务配置&quot; class=&quot;</summary>
+    <summary type="html">&lt;p&gt;收拾行李&lt;/p&gt;
+</summary>
       
     
     
@@ -173,40 +177,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-15</title>
-    <link href="https://www.rtzhao.site/2021/09/15/%E6%97%A5%E5%BF%97-2021-9-15/"/>
-    <id>https://www.rtzhao.site/2021/09/15/%E6%97%A5%E5%BF%97-2021-9-15/</id>
-    <published>2021-09-15T00:50:02.000Z</published>
-    <updated>2021-09-15T13:51:04.096Z</updated>
+    <title>日志-2021-11-10</title>
+    <link href="https://www.rtzhao.site/2021/11/10/%E6%97%A5%E5%BF%97-2021-11-10/"/>
+    <id>https://www.rtzhao.site/2021/11/10/%E6%97%A5%E5%BF%97-2021-11-10/</id>
+    <published>2021-11-10T05:01:46.000Z</published>
+    <updated>2021-11-14T08:55:00.511Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="服务降级"><a href="#服务降级" class="headerlink" title="服务降级"></a>服务降级</h4><h5 id="Hystrix-豪猪哥"><a href="#Hystrix-豪猪哥" class="headerlink" title="Hystrix 豪猪哥"></a>Hystrix 豪猪哥</h5><p>一个用于处理分布式系统的延迟和容错的开源库</p><p><strong>功能</strong>：</p><ul><li>服务降级 fallback —-返回一个预期的、可处理的备选响应，而非长时间的等待或者抛出无法处理的异常</li><li>服务熔断 break—- 保险丝烧断。达到最大服务访问后，直接拒绝访问。服务降级进而熔断，然后尝试恢复调用链路</li><li>接近实时的监控</li><li>服务限流 flowlimit—-秒杀高并发等操作，排队、一秒N个有序进行。阿里sentienl在说</li><li>。。。。</li></ul><p>未来面临的异常：运行、超时、宕机</p><p>熔断类型：熔断打开、熔断关闭、熔断半开</p><p>涉及断路器的三个重要参数：开罩时间窗、请求总数阈值、错误百分比阈值</p><p>Hystrix工作流程 9步 </p><h4 id="服务网关"><a href="#服务网关" class="headerlink" title="服务网关"></a>服务网关</h4><p>日志、限流、鉴权、安全架构等等工作</p><h5 id="Zuul"><a href="#Zuul" class="headerlink" title="Zuul"></a>Zuul</h5><p>内部重大分歧、不再讲，使用新一代网关 gateway</p><h5 id="gateway"><a href="#gateway" class="headerlink" title="gateway"></a>gateway</h5><p>Gateway是在Spring生态系统之上构建的API网关服务，基于Spring 5，Spring Boot 2和 Project Reactor等技术。<br>Gateway旨在提供一种简单而有效的方式来对API进行路由，以及提供一些强大的过滤器功能， 例如：熔断、限流、重试等</p><p>SpringCloud Gateway是基于WebFlux框架实现的，而WebFlux框架底层则使用了高性能的Reactor模式通信框架Netty。</p><p><strong>干啥</strong></p><ul><li>反向代理</li><li>鉴权</li><li>流量控制</li><li>熔断</li><li>日志监控</li><li>。。。。</li></ul><p><strong>三大核心概念</strong>：Route（路由）、Predicate（断言）、Filter（过滤）</p><p><strong>核心逻辑</strong>：路由转发、执行过滤器链</p><p><strong>网关配置两种方式</strong>：yml、代码中注入RouteLocator的Bean</p><p>断言  cookie</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl http://localhost:9588/paymentInfo --cookie &quot;username=zzyy&quot;</span><br></pre></td></tr></table></figure><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><h4 id="Apache-Jmeter"><a href="#Apache-Jmeter" class="headerlink" title="Apache Jmeter"></a>Apache Jmeter</h4><p>下载安装包，配置环境变量，双击jmeter.bat </p><h4 id="不容易"><a href="#不容易" class="headerlink" title="不容易"></a>不容易</h4><p>底层–&gt; 原理–&gt; 分析 –&gt; 案例的设计和实现</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;服务降级&quot;&gt;&lt;a href=&quot;#服务降级&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-14</title>
-    <link href="https://www.rtzhao.site/2021/09/14/%E6%97%A5%E5%BF%97-2021-9-14/"/>
-    <id>https://www.rtzhao.site/2021/09/14/%E6%97%A5%E5%BF%97-2021-9-14/</id>
-    <published>2021-09-14T01:13:32.000Z</published>
-    <updated>2021-09-15T00:50:01.490Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="1-服务注册中心"><a href="#1-服务注册中心" class="headerlink" title="1 服务注册中心"></a>1 服务注册中心</h4><ol start="4"><li><p>Consul </p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">D:\develop\SpringCloud\consul_1.6.1&gt;consul --version</span><br><span class="line">D:\develop\SpringCloud\consul_1.6.1&gt;consul agent -dev</span><br></pre></td></tr></table></figure></li></ol><p><strong>CAP</strong>：<br>C - Consistency（强一致性）</p><p>A - Availability（可用性）</p><p>P - Partition tolerance（分区容错性）</p><p>AP（Eureka[自我保护机制]）、CP（Zookeeper/Consul）</p><h4 id="2-服务调用1"><a href="#2-服务调用1" class="headerlink" title="2 服务调用1"></a>2 服务调用1</h4><ol><li>Ribbon—客户端负载均衡工具，配合RestTemplate实现RPC</li></ol><p><strong>工作策略</strong>：</p><p>1.选择同一个区域内负载较小的server，如EurekaServer</p><p>2.根据用户指定的策略，从server的服务注册列表中选择一个地址</p><p><strong>LB 负载均衡</strong>：</p><ul><li>本地负载均衡—Ribbon（进程内LB）【将逻辑集成到消费方】</li><li>服务器负载均衡—Nginx（集中式LB）【消费方和提供方之间独立的LB设施】</li></ul><ol start="2"><li>LoadBalancer—轮询规则。共有7大规则，也可自定义LB规则，利用（CAS+自旋）</li></ol><h4 id="3-服务调用2"><a href="#3-服务调用2" class="headerlink" title="3 服务调用2"></a>3 服务调用2</h4><ol><li>OpenFeign—一个声明式的web服务客户端，让编写Web服务客户端变得非常容易，只需要创建一个接口并在接口上添加注解即可</li></ol><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p><strong>面对新技术</strong>：是什么、能干啥、去哪下、怎么玩。熟悉的套不熟悉的。理论、实操、小总结</p>]]></content>
+    <content type="html"><![CDATA[<p>收拾行李</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;1-服务注册中心&quot;&gt;&lt;a href=&quot;#1-服务注册中心&quot;</summary>
+    <summary type="html">&lt;p&gt;收拾行李&lt;/p&gt;
+</summary>
       
     
     
@@ -217,41 +200,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-13</title>
-    <link href="https://www.rtzhao.site/2021/09/13/%E6%97%A5%E5%BF%97-2021-9-13/"/>
-    <id>https://www.rtzhao.site/2021/09/13/%E6%97%A5%E5%BF%97-2021-9-13/</id>
-    <published>2021-09-13T00:08:07.000Z</published>
-    <updated>2021-09-14T01:15:51.319Z</updated>
+    <title>日志-2021-11-09</title>
+    <link href="https://www.rtzhao.site/2021/11/09/%E6%97%A5%E5%BF%97-2021-11-09/"/>
+    <id>https://www.rtzhao.site/2021/11/09/%E6%97%A5%E5%BF%97-2021-11-09/</id>
+    <published>2021-11-09T05:01:46.000Z</published>
+    <updated>2021-11-14T08:54:39.177Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h4 id="1-服务注册中心"><a href="#1-服务注册中心" class="headerlink" title="1  服务注册中心"></a>1  服务注册中心</h4><ol><li><p>Eureka 停更不停用，老项目依旧维护中</p></li><li><p>ZooKeeper  集合SpringCloud替换掉Eureka+Dubbo</p><ol><li><p>ZooKeeper 结点分类 临时结点、带序号的临时结点、持久结点、带序号的持久结点</p></li><li><p>```shell<br> [root@localhost bin]# ./zkServer.sh start<br> [root@localhost bin]# ./zkCli.sh</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">   3. Zookeeper可以做集群</span><br><span class="line"></span><br><span class="line">   </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">###  Otherss</span><br><span class="line"></span><br><span class="line">**流程**：</span><br><span class="line"></span><br><span class="line">1. 建module</span><br><span class="line">2. 改pom</span><br><span class="line">3. 写ymal</span><br><span class="line">4. 主启动</span><br><span class="line">5. 业务类</span><br><span class="line">   1. 建库、建表</span><br><span class="line">   2. entities</span><br><span class="line">   3. dao</span><br><span class="line">   4. service</span><br><span class="line">   5. controller</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">**注意**：一定要注意端口是否前后一致</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">**查看端口占用情况**</span><br><span class="line"></span><br><span class="line">```shell</span><br><span class="line">netstat -aon|findstr &quot;49157&quot;</span><br><span class="line">tasklist|findstr &quot;PID&quot;</span><br></pre></td></tr></table></figure></li></ol></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;SpringCloud&quot;&gt;&lt;a href=&quot;#SpringCloud&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud&quot;&gt;&lt;/a&gt;SpringCloud&lt;/h3&gt;&lt;h4 id=&quot;1-服务注册中心&quot;&gt;&lt;a href=&quot;#1-服务注册中心&quot;</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-12</title>
-    <link href="https://www.rtzhao.site/2021/09/12/%E6%97%A5%E5%BF%97-2021-9-12/"/>
-    <id>https://www.rtzhao.site/2021/09/12/%E6%97%A5%E5%BF%97-2021-9-12/</id>
-    <published>2021-09-12T00:21:41.000Z</published>
-    <updated>2021-09-12T09:06:37.577Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a>RabbitMQ</h3><p>学习了剩余的SpringBoot集成RabbitMQ、RabbitMQ集群</p><p><a class="link"   href="https://blog.csdn.net/RTyinying/article/details/120220277" >分布式 第八章 RabbitMQ<i class="fas fa-external-link-alt"></i></a></p><h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p>MySql 5.7及以上</p><p>Maven 3.5及以上</p><p><strong>注意：</strong></p><p>熟手—》高手—》专家 </p><p>约定 &gt; 配置 &gt; 编码</p><p>请你来是解决问题的，不是来学习的</p><p><strong>maven配置相关</strong></p><p>idea本地的：D:\SoftWare\IntelliJ IDEA 2021.2\plugins\maven\lib\maven3\conf</p><p>maven自带的：D:\develop\maven_work\apache-maven-3.5.2\conf</p><p><strong>dependencyManagement 和 denpendency</strong>：</p><p>dependencyManagement只是声明依赖，并不实现引入，因此需要子项目显示的声明需要用的依赖</p>]]></content>
+    <content type="html"><![CDATA[<p>收拾行李</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;RabbitMQ&quot;&gt;&lt;a href=&quot;#RabbitMQ&quot; class=&quot;headerlink&quot; title=&quot;RabbitMQ&quot;&gt;&lt;/a&gt;RabbitMQ&lt;/h3&gt;&lt;p&gt;学习了剩余的SpringBoot集成RabbitMQ、RabbitMQ集群&lt;/p&gt;
-&lt;p&gt;&lt;</summary>
+    <summary type="html">&lt;p&gt;收拾行李&lt;/p&gt;
+</summary>
       
     
     
@@ -262,40 +223,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-10</title>
-    <link href="https://www.rtzhao.site/2021/09/10/%E6%97%A5%E5%BF%97-2021-9-10/"/>
-    <id>https://www.rtzhao.site/2021/09/10/%E6%97%A5%E5%BF%97-2021-9-10/</id>
-    <published>2021-09-10T00:34:47.000Z</published>
-    <updated>2021-09-10T13:18:04.495Z</updated>
+    <title>日志-2021-11-08</title>
+    <link href="https://www.rtzhao.site/2021/11/08/%E6%97%A5%E5%BF%97-2021-11-08/"/>
+    <id>https://www.rtzhao.site/2021/11/08/%E6%97%A5%E5%BF%97-2021-11-08/</id>
+    <published>2021-11-08T05:01:46.000Z</published>
+    <updated>2021-11-14T08:54:16.422Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="FastDFS"><a href="#FastDFS" class="headerlink" title="FastDFS"></a>FastDFS</h3><p><a class="link"   href="https://blog.csdn.net/RTyinying/article/details/120200573" >分布式 第七章 FastDFS<i class="fas fa-external-link-alt"></i></a></p><h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a>RabbitMQ</h3><p>学到SpringBoot集成RabbitMQ</p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ol><li><p>千万注意，远程访问千万不要访问大数据，也不要返回大数据</p></li><li><p><strong>Java assert</strong></p></li></ol><blockquote><p>Java2在1.4中新增了一个关键字：assert。在程序开发过程中使用它创建一个断言(assertion)。它的语法形式有如下所示的两种形式：<br>1、assert condition;<br>  这里condition是一个必须为真(true)的表达式。如果表达式的结果为true，那么断言为真，并且无任何行动<br>如果表达式为false，则断言失败，则会抛出一个AssertionError对象。这个AssertionError继承于Error对象，<br>而Error继承于Throwable，Error是和Exception并列的一个错误对象，通常用于表达系统级运行错误。<br>2、asser condition:expr;<br>  这里condition是和上面一样的，这个冒号后跟的是一个表达式，通常用于断言失败后的提示信息，说白了，它是一个传到AssertionError构造函数的值，如果断言失败，该值被转化为它对应的字符串，并显示出来。</p></blockquote><ol start="3"><li>上传文件前首先打开fastdfs的storage和tracker，然后关闭Linux的防火墙，这样才有正常上传的前提</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;FastDFS&quot;&gt;&lt;a href=&quot;#FastDFS&quot; class=&quot;headerlink&quot; title=&quot;FastDFS&quot;&gt;&lt;/a&gt;FastDFS&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://blog.csdn.net/RTyi</summary>
-      
-    
-    
-    
-    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>日志-2021-9-9</title>
-    <link href="https://www.rtzhao.site/2021/09/09/%E6%97%A5%E5%BF%97-2021-9-9/"/>
-    <id>https://www.rtzhao.site/2021/09/09/%E6%97%A5%E5%BF%97-2021-9-9/</id>
-    <published>2021-09-09T00:18:07.000Z</published>
-    <updated>2021-09-09T14:15:03.960Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Spring-Session"><a href="#Spring-Session" class="headerlink" title="Spring Session"></a>Spring Session</h3><p><a href="%5Bttps://blog.csdn.net/RTyinying/article/details/120199911%5D(https://blog.csdn.net/RTyinying/article/details/120199911)">分布式 第六章 Spring Session</a></p><h3 id="FastDFS-分布式文件系统"><a href="#FastDFS-分布式文件系统" class="headerlink" title="FastDFS 分布式文件系统"></a>FastDFS 分布式文件系统</h3><p>学到FastFDS在web项目中的应用</p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p>@RestController 相当于 @Controller + @ResponseBody</p><p>@Resource和@Autowired注解都是用来实现依赖注入的。只是@AutoWried按by type自动注入，而@Resource默认按byName自动注入</p><p><strong>Linux</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">上传下载</span></span><br><span class="line">sz ...</span><br><span class="line">rz -y</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">查看进程</span></span><br><span class="line">ps -ef | grep ...</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">查看防火墙状态、暂时关闭防火墙</span></span><br><span class="line">systemctl status firewalld</span><br><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>收拾行李</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;Spring-Session&quot;&gt;&lt;a href=&quot;#Spring-Session&quot; class=&quot;headerlink&quot; title=&quot;Spring Session&quot;&gt;&lt;/a&gt;Spring Session&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;%5Bttps://blo</summary>
+    <summary type="html">&lt;p&gt;收拾行李&lt;/p&gt;
+</summary>
       
     
     
@@ -306,18 +246,19 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-8</title>
-    <link href="https://www.rtzhao.site/2021/09/08/%E6%97%A5%E5%BF%97-2021-9-8/"/>
-    <id>https://www.rtzhao.site/2021/09/08/%E6%97%A5%E5%BF%97-2021-9-8/</id>
-    <published>2021-09-08T00:33:02.000Z</published>
-    <updated>2021-09-08T13:20:14.917Z</updated>
+    <title>日志-2021-11-05</title>
+    <link href="https://www.rtzhao.site/2021/11/05/%E6%97%A5%E5%BF%97-2021-11-05/"/>
+    <id>https://www.rtzhao.site/2021/11/05/%E6%97%A5%E5%BF%97-2021-11-05/</id>
+    <published>2021-11-05T05:01:46.000Z</published>
+    <updated>2021-11-14T08:53:59.880Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h3><p><a class="link"   href="https://blog.csdn.net/RTyinying/article/details/120189135" >分布式 第五章 Nginx<i class="fas fa-external-link-alt"></i></a></p><h3 id="域名-ip-ddns-dns"><a href="#域名-ip-ddns-dns" class="headerlink" title="域名 ip ddns dns"></a>域名 ip ddns dns</h3><p><a class="link"   href="https://blog.csdn.net/f641385712/article/details/105193589" >一文搞懂常用的网络概念：域名、动态IP、DNS、DDNS<i class="fas fa-external-link-alt"></i></a></p><h4 id="ip"><a href="#ip" class="headerlink" title="ip"></a>ip</h4><ul><li>IPv4、IPv6</li><li>静态ip、动态ip</li></ul><h4 id="域名和域名解析"><a href="#域名和域名解析" class="headerlink" title="域名和域名解析"></a>域名和域名解析</h4><p>域名解析的类型</p><ul><li>主机名（A记录）</li><li>别名（CNAME记录）</li><li>邮件交换记录（MX记录）</li><li>文本记录（TXT记录）</li></ul><h4 id="dns"><a href="#dns" class="headerlink" title="dns"></a>dns</h4><h4 id="ddns"><a href="#ddns" class="headerlink" title="ddns"></a>ddns</h4><p>以把变化的IP动态地映射到域名上，通过<strong>不变的域名</strong>访问变化IP的主机；</p><p><a class="link"   href="https://help.aliyun.com/document_detail/141482.html" >使用Alibaba Cloud SDK for Java实现动态域名解析（DDNS)<i class="fas fa-external-link-alt"></i></a></p><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p><a class="link"   href="http://ace.jeka.by/" >Ace Admin<i class="fas fa-external-link-alt"></i></a> 基于bootstrap的轻量级后台UI框架</p>]]></content>
+    <content type="html"><![CDATA[<p>命题创作答辩</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;Nginx&quot;&gt;&lt;a href=&quot;#Nginx&quot; class=&quot;headerlink&quot; title=&quot;Nginx&quot;&gt;&lt;/a&gt;Nginx&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;https://blog.csdn.net/RTyinying/ar</summary>
+    <summary type="html">&lt;p&gt;命题创作答辩&lt;/p&gt;
+</summary>
       
     
     
@@ -328,138 +269,211 @@
   </entry>
   
   <entry>
-    <title>日志-2021-9-3</title>
-    <link href="https://www.rtzhao.site/2021/09/03/%E6%97%A5%E5%BF%97-2021-9-3/"/>
-    <id>https://www.rtzhao.site/2021/09/03/%E6%97%A5%E5%BF%97-2021-9-3/</id>
-    <published>2021-09-03T05:33:02.000Z</published>
-    <updated>2021-09-03T07:19:08.200Z</updated>
+    <title>日志-2021-11-04</title>
+    <link href="https://www.rtzhao.site/2021/11/04/%E6%97%A5%E5%BF%97-2021-11-04/"/>
+    <id>https://www.rtzhao.site/2021/11/04/%E6%97%A5%E5%BF%97-2021-11-04/</id>
+    <published>2021-11-04T05:01:46.000Z</published>
+    <updated>2021-11-14T08:51:01.059Z</updated>
     
-    <content type="html"><![CDATA[<p>✨✨✨<strong>实习日志系列今日完结</strong>✨✨✨</p><h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><h3 id="遗留"><a href="#遗留" class="headerlink" title="遗留"></a>遗留</h3><h4 id="MQ"><a href="#MQ" class="headerlink" title="MQ"></a>MQ</h4><h4 id="自平衡二叉查找树"><a href="#自平衡二叉查找树" class="headerlink" title="自平衡二叉查找树"></a>自平衡二叉查找树</h4><h4 id="java-上传插件"><a href="#java-上传插件" class="headerlink" title="java 上传插件"></a>java 上传插件</h4><p><strong>ftp</strong></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul><h4 id="自定义keep主题属性"><a href="#自定义keep主题属性" class="headerlink" title="自定义keep主题属性"></a>自定义keep主题属性</h4><h4 id="工具尝试"><a href="#工具尝试" class="headerlink" title="工具尝试"></a>工具尝试</h4><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a>：</p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a>：</p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a>：服务未开启</p>]]></content>
+    <content type="html"><![CDATA[<p>补充命题创作</p><p>改改用户体验度量</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;✨✨✨&lt;strong&gt;实习日志系列今日完结&lt;/strong&gt;✨✨✨&lt;/p&gt;
-&lt;h3 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot; title=&quot;TODO&quot;&gt;&lt;/a&gt;TODO&lt;/h3&gt;&lt;h3 id=&quot;遗留&quot;&gt;&lt;a href=&quot;#遗留</summary>
+    <summary type="html">&lt;p&gt;补充命题创作&lt;/p&gt;
+&lt;p&gt;改改用户体验度量&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
   
   <entry>
-    <title>日志-2021-9-2</title>
-    <link href="https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/"/>
-    <id>https://www.rtzhao.site/2021/09/02/%E6%97%A5%E5%BF%97-2021-9-2/</id>
-    <published>2021-09-02T00:48:19.000Z</published>
-    <updated>2021-09-03T05:46:18.559Z</updated>
+    <title>日志-2021-11-03</title>
+    <link href="https://www.rtzhao.site/2021/11/03/%E6%97%A5%E5%BF%97-2021-11-03/"/>
+    <id>https://www.rtzhao.site/2021/11/03/%E6%97%A5%E5%BF%97-2021-11-03/</id>
+    <published>2021-11-03T05:01:46.000Z</published>
+    <updated>2021-11-04T05:07:56.217Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h4><h5 id="echarts"><a href="#echarts" class="headerlink" title="echarts"></a>echarts</h5><ol><li><p>echarts图表撑不满整个DOM =========！！✅grid属性中设置上下左右宽高等设置</p><p>不必了 <a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮=========！！✅❎普通的position定位未成功，可以在toolbox中自定义按钮，高亮的话不知道这么做，因为页面元素为canvas对象，不知道怎么获取内部的元素。</p></li><li><p>环形图中间的文字样式修改============！！✅series中emphasis选项</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">emphasis: &#123;</span><br><span class="line">    <span class="attr">label</span>: &#123;</span><br><span class="line">       <span class="attr">show</span>: <span class="literal">true</span>,</span><br><span class="line">       <span class="attr">fontSize</span>: <span class="string">&#x27;18&#x27;</span>,</span><br><span class="line">       <span class="attr">fontWeight</span>: <span class="string">&#x27;normal&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>所有颜色的渐变效果============！！✅color配置调整径向和线性渐变，有一点径向渐变的中心可以为相对位置（需要根据扇形的内切圆园心位置调整）和绝对位置（不太行）</p></li><li><p>所有echarts数据写死，点击发送请求获取新数据========!!✅❎监听按钮点击，发送ajax请求获取新json后在setOption</p><p>不同更新时间===========！！！❎定时发送请求</p></li></ol><br/><br/><hr><h5 id="layui"><a href="#layui" class="headerlink" title="layui"></a>layui</h5><p>看看layui table内置模块</p><ol><li><p>数据表格，下面的页数跳转 =======！！！✅table.render的额外参数 ?page=2&amp;limit=10，重新渲染表格</p><p>以为layui已经写好了分页，只需要传入参数就行[手动滑稽] ，请打消这个懒惰念头。</p><p>首先需要发送全部的数据条数作为count记录，点击翻页是会发送page、limit参数，后台接收一下，sql语句limit (page-1)*limit,limit 返回搜索得到的记录到前台</p></li><li><p>如何加入进度条  😡既如何在table中加入其他样式=======！！！✅</p><p>（1）首先尝试的是在table.render外获取dom元素，应该是可以修改的，完事需要reload一下，但是没尝试成功</p><p>（2）搜索发现可以在render的done中调用</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">done: <span class="function"><span class="keyword">function</span> (<span class="params">res</span>) </span>&#123;</span><br><span class="line">  <span class="comment">//如果是异步请求数据方式，res即为你接口返回的信息。</span></span><br><span class="line">  <span class="comment">//如果是直接赋值的方式，res即为：&#123;data: [], count: 99&#125; data为当前页数据、count为数据总长度</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> that = <span class="built_in">this</span>.elem.next();</span><br><span class="line">  res.data.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">item, index</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">if</span> (item.username === <span class="string">&quot;李四&quot;</span>) &#123;</span><br><span class="line">      <span class="keyword">const</span> tr = that.find(<span class="string">&quot;.layui-table-box tbody tr[data-index=&#x27;&quot;</span> + index + <span class="string">&quot;&#x27;]&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">/*发货日期加徽章*/</span></span><br><span class="line">      tr.find(<span class="string">&quot;.laytable-cell-1-0-4&quot;</span>).html(</span><br><span class="line">          <span class="string">&quot;2021年10月26日&amp;nbsp;&amp;nbsp;&lt;span class=\&quot;layui-badge-dot\&quot;&gt;&lt;/span&gt;&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">/*进度状态*/</span></span><br><span class="line">       tr.find(<span class="string">&quot;.laytable-cell-1-0-5&quot;</span>).html(</span><br><span class="line">           <span class="string">&quot;&lt;div class=\&quot;layui-progress\&quot;&gt;\n&quot;</span> +</span><br><span class="line">           <span class="string">&quot;    &lt;div class=\&quot;layui-progress-bar layui-bg-blue\&quot; lay-percent=\&quot;100%\&quot; lay-filter=\&quot;bar\&quot;&gt;&lt;/div&gt;\n&quot;</span> +</span><br><span class="line">            <span class="string">&quot;&lt;/div&gt;&quot;</span>);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="comment">/*重新渲染进度条*/</span></span><br><span class="line">      element.init();</span><br><span class="line">   &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol><br/><br/>***<p>====》😮</p><ol><li>🤔CSS 切图=======！！！！✅❎大屏尺寸固定了，暂时不需要了解</li></ol><br/><br/><hr><h4 id="遗留"><a href="#遗留" class="headerlink" title="遗留"></a>遗留</h4><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件  </p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul><h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><h5 id="name"><a href="#name" class="headerlink" title="name"></a>name</h5><p>刘一 陈二 张三 李四 王五 赵六 孙七 周八 吴九 郑十</p><h5 id="markdown相关软件"><a href="#markdown相关软件" class="headerlink" title="markdown相关软件"></a>markdown相关软件</h5><p><a class="link"   href="https://droplr.com/" >droplr<i class="fas fa-external-link-alt"></i></a> :立即捕获屏幕截图和屏幕录制：它通过链接保存到云中，您可以与任何人、任何地方共享。</p><p><a class="link"   href="https://www.getcloudapp.com/" >CloudApp<i class="fas fa-external-link-alt"></i></a> :超过 400 万人使用 CloudApp 的屏幕录制软件。 工作更快。</p><p><a class="link"   href="https://maxiang.io/" >马克飞象<i class="fas fa-external-link-alt"></i></a> : 专为印象笔记打造的 Markdown 编辑器</p><p><a class="link"   href="https://docsify.js.org/#/zh-cn/?id=docsify" >docsify<i class="fas fa-external-link-alt"></i></a> :一个神奇的文档网站生成器  <a class="link"   href="https://www.jianshu.com/p/4883e95aa903" >参考<i class="fas fa-external-link-alt"></i></a></p><h5 id="markdown"><a href="#markdown" class="headerlink" title="markdown"></a>markdown</h5><p><a class="link"   href="https://www.runoob.com/markdown/md-advance.html" >菜鸟<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="http://markdown.p2hp.com/" >markdown中文网<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.appinn.com/markdown/" >markdown语法说明<i class="fas fa-external-link-alt"></i></a></p><p>1）嵌套列表</p><ol><li>呜呜<ul><li>单位</li><li>顶点</li></ul></li><li>我我</li></ol><p>2）区块中使用列表</p><blockquote><p>区块中使用列表</p><ol><li>苏苏<ul><li>得到</li><li>等等</li></ul></li><li>搜索树</li></ol></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>改改命题创作</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;H5&quot;&gt;&lt;a href=&quot;#H5&quot; class=&quot;headerlink&quot; title=&quot;H5&quot;&gt;&lt;/a&gt;H5&lt;/h4&gt;&lt;h5 id=&quot;echarts&quot;&gt;&lt;a href=&quot;#echarts&quot; class=&quot;headerlink&quot; title=&quot;echarts&quot;&gt;&lt;/</summary>
+    <summary type="html">&lt;p&gt;改改命题创作&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
   
   <entry>
-    <title>日志-2021-9-1</title>
-    <link href="https://www.rtzhao.site/2021/09/01/%E6%97%A5%E5%BF%97-2021-9-1/"/>
-    <id>https://www.rtzhao.site/2021/09/01/%E6%97%A5%E5%BF%97-2021-9-1/</id>
-    <published>2021-09-01T02:55:40.000Z</published>
-    <updated>2021-09-01T07:31:19.975Z</updated>
+    <title>日志-2021-11-02</title>
+    <link href="https://www.rtzhao.site/2021/11/02/%E6%97%A5%E5%BF%97-2021-11-02/"/>
+    <id>https://www.rtzhao.site/2021/11/02/%E6%97%A5%E5%BF%97-2021-11-02/</id>
+    <published>2021-11-02T05:01:46.000Z</published>
+    <updated>2021-11-04T05:07:52.857Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a> <a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li><li><p>环形图中间的文字样式修改</p></li><li><p>所有颜色的渐变效果</p></li><li><p>所有echarts数据写死，不同更新时间、点击发送请求获取新数据</p></li><li><p>数据表格，下面的页数跳转；如何加入进度条  😡既如何在table中加入其他样式</p></li><li><p>🤔CSS 切图</p></li></ol><p>​    =====》》》</p><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul><h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p>(1)<a class="link"   href="https://www.xp.cn/" >小皮面板<i class="fas fa-external-link-alt"></i></a></p><p>PhpStudy国内12年老牌公益软件，集安全，高效，功能与一体，已获得全球用户认可安装，运维也高效。<br>支持一键LAMP,LNMP,集群,监控,网站,FTP,数据库,JAVA等100多项服务器管理功能</p>]]></content>
+    <content type="html"><![CDATA[<p>搞命题创作</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;ECharts&quot;&gt;&lt;a href=&quot;#ECharts&quot; class=&quot;headerlink&quot; title=&quot;ECharts&quot;&gt;&lt;/a&gt;ECharts&lt;/h4&gt;&lt;p&gt;=====TODO=====&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;echarts图表撑不满整个DOM &lt;</summary>
+    <summary type="html">&lt;p&gt;搞命题创作&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
   
   <entry>
-    <title>日志-2021-8-31</title>
-    <link href="https://www.rtzhao.site/2021/08/31/%E6%97%A5%E5%BF%97-2021-8-31/"/>
-    <id>https://www.rtzhao.site/2021/08/31/%E6%97%A5%E5%BF%97-2021-8-31/</id>
-    <published>2021-08-31T00:46:01.000Z</published>
-    <updated>2021-08-31T09:04:09.697Z</updated>
+    <title>日志-2021-11-01</title>
+    <link href="https://www.rtzhao.site/2021/11/01/%E6%97%A5%E5%BF%97-2021-11-01/"/>
+    <id>https://www.rtzhao.site/2021/11/01/%E6%97%A5%E5%BF%97-2021-11-01/</id>
+    <published>2021-11-01T05:01:46.000Z</published>
+    <updated>2021-11-04T05:07:49.492Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="Electron-Vue"><a href="#Electron-Vue" class="headerlink" title="Electron+Vue"></a>Electron+Vue</h4><p>开发跨平台桌面应用</p><p>基于Chromium和 Node.js，使用 HTML、CSS和JavaScript来构建跨平台应用的跨平台开发框架，兼容 Mac、Windows 和 Linux。目前，Electron已经创建了包括VScode和Atom在内的大量应用。</p><p><em>就是桌面端的程序里面放一个浏览器</em> 😓</p><h4 id="ECharts"><a href="#ECharts" class="headerlink" title="ECharts"></a>ECharts</h4><p>=====TODO=====</p><ol><li><p>echarts图表撑不满整个DOM </p><p><a class="link"   href="https://www.baidu.com/s?ie=UTF-8&wd=echarts%20%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%85%B7%E5%A4%87%E9%AB%98%E5%AE%BD%E7%9A%84%20DOM%20%E5%AE%B9%E5%99%A8%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE%E5%8F%8A%E5%A4%A7%E5%B0%8F" >biadu<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.zhihu.com/question/42895113?sort=created" >zhihu<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://blog.csdn.net/missxgao/article/details/109468343" >csdn<i class="fas fa-external-link-alt"></i></a></p></li><li><p>在echarts的dom上添加三个按钮</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>搞命题创作</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;Electron-Vue&quot;&gt;&lt;a href=&quot;#Electron-Vue&quot; class=&quot;headerlink&quot; title=&quot;Electron+Vue&quot;&gt;&lt;/a&gt;Electron+Vue&lt;/h4&gt;&lt;p&gt;开发跨平台桌面应用&lt;/p&gt;
-&lt;p&gt;基于Chromium和 N</summary>
+    <summary type="html">&lt;p&gt;搞命题创作&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
   
   <entry>
-    <title>日志-2021-8-30</title>
-    <link href="https://www.rtzhao.site/2021/08/30/%E6%97%A5%E5%BF%97-2021-8-30/"/>
-    <id>https://www.rtzhao.site/2021/08/30/%E6%97%A5%E5%BF%97-2021-8-30/</id>
-    <published>2021-08-30T00:53:45.000Z</published>
-    <updated>2021-09-09T14:17:51.006Z</updated>
+    <title>日志-2021-10-29</title>
+    <link href="https://www.rtzhao.site/2021/10/29/%E6%97%A5%E5%BF%97-2021-10-29/"/>
+    <id>https://www.rtzhao.site/2021/10/29/%E6%97%A5%E5%BF%97-2021-10-29/</id>
+    <published>2021-10-29T05:01:46.000Z</published>
+    <updated>2021-11-04T05:07:45.859Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="Layuimini"><a href="#Layuimini" class="headerlink" title="Layuimini"></a>Layuimini</h4><h5 id="下拉选项：tableSelect"><a href="#下拉选项：tableSelect" class="headerlink" title="下拉选项：tableSelect"></a>下拉选项：tableSelect</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;layui-form-item&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;layui-form-label&quot;</span>&gt;</span>测试单选<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;layui-input-inline&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;请输入&quot;</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">class</span>=<span class="string">&quot;layui-input&quot;</span> <span class="attr">id</span>=<span class="string">&quot;demo4&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">tableSelect.render(&#123;</span><br><span class="line">    <span class="attr">elem</span>: <span class="string">&#x27;#demo4&#x27;</span>,</span><br><span class="line">    <span class="attr">checkedKey</span>: <span class="string">&#x27;id&#x27;</span>,</span><br><span class="line">    <span class="attr">searchKey</span>: <span class="string">&#x27;username&#x27;</span>,</span><br><span class="line">    <span class="attr">searchPlaceholder</span>: <span class="string">&#x27;姓名测试关键词搜索&#x27;</span>,</span><br><span class="line">    <span class="attr">height</span>: <span class="string">&#x27;400&#x27;</span>,  <span class="comment">//自定义高度  不行 layui.css 中 layui-input标签的宽高被限制</span></span><br><span class="line">    <span class="attr">width</span>: <span class="string">&#x27;1200&#x27;</span>,  <span class="comment">//自定义宽度</span></span><br><span class="line">    <span class="attr">table</span>: &#123;</span><br><span class="line">        <span class="attr">url</span>: <span class="string">&#x27;http://localhost:9091/test/user&#x27;</span>,</span><br><span class="line">        <span class="attr">cols</span>: [[</span><br><span class="line">            &#123;<span class="attr">type</span>: <span class="string">&#x27;radio&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;uid&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;ID&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;username&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;姓名&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">field</span>: <span class="string">&#x27;gender&#x27;</span>, <span class="attr">title</span>: <span class="string">&#x27;性别&#x27;</span>&#125;</span><br><span class="line">        ]]</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">done</span>: <span class="function"><span class="keyword">function</span> (<span class="params">elem, data</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> NEWJSON = [];</span><br><span class="line">        <span class="keyword">var</span> result = <span class="built_in">JSON</span>.stringify(data.data);</span><br><span class="line">        layer.alert(result, &#123;</span><br><span class="line">            <span class="attr">title</span>: <span class="string">&#x27;选择的搜索信息&#x27;</span></span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        layui.each(data.data, <span class="function"><span class="keyword">function</span> (<span class="params">index, item</span>) </span>&#123;</span><br><span class="line">            NEWJSON.push(item.username)</span><br><span class="line">        &#125;)</span><br><span class="line">        elem.val(NEWJSON.join(<span class="string">&quot;,&quot;</span>))</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h5 id="省市县区三级联动下拉选择器：layarea"><a href="#省市县区三级联动下拉选择器：layarea" class="headerlink" title="省市县区三级联动下拉选择器：layarea"></a>省市县区三级联动下拉选择器：layarea</h5><p>数据都写死在本地，直接用</p><h5 id="富文本编辑器-wangEditor"><a href="#富文本编辑器-wangEditor" class="headerlink" title="富文本编辑器 wangEditor"></a>富文本编辑器 <a class="link"   href="https://www.wangeditor.com/" >wangEditor<i class="fas fa-external-link-alt"></i></a></h5><p>感觉这玩意很鸡肋，不过可以用在用户反馈方面。</p><p>该富文本编辑器的图片、视频上传需要设置接口等等额外信息，可以用图床api接口【七牛云】【SM.MS】（到也是可以自己写一个API暴露一个上传接口，返回图片路径，以后可以尝试一下）</p><p><a class="link"   href="https://sm.ms/" >SM.MS<i class="fas fa-external-link-alt"></i></a> 可以个人使用，注册之后获取一个token（Make sure you’ve stored your API key somewhere secure and never share them publicly.）</p><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Base  https://sm.ms/api/v2/</span><br></pre></td></tr></table></figure><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">POST  /upload</span><br></pre></td></tr></table></figure><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108301608268.png"                      alt="image-20210830160800226"                ></p><h5 id="文件上组件-zyupload"><a href="#文件上组件-zyupload" class="headerlink" title="文件上组件  zyupload"></a>文件上组件  zyupload</h5><p>与富文本编辑器中的文件上传类似，需要提供上上传接口，并对返回结果处理，成功了要显示文件路径</p><p>这个组件有个问题，图片预览时的尺寸为高度写死，图片显示不全，同时没有文本格式的预览图片</p><h5 id=""><a href="#" class="headerlink" title=""></a></h5><h4 id="前端与后台数据交互的多种方式"><a href="#前端与后台数据交互的多种方式" class="headerlink" title="前端与后台数据交互的多种方式"></a>前端与后台数据交互的多种方式</h4><p>(1) ajax的data部分 ◀▶</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">data</span>:....</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>(2) 表单传递 ▶</p><p>前端使用表单时，为name属性赋值，action属性标识提交数据的地址，method属性指明提交方式</p><p> 后台controller层方法的参数只要与name的值相同，即可获取到该属性的值。</p><p>(3) session域或request域  ◀</p><p>后台将值存入request域里面，使用request.getsession.setAttribute(“名字”,”值”)</p><p>前台使用sessionScope.名字取值</p><p>(4) 通过url字符串拼接向后台提交数据▶</p><ul><li>ajax的url中拼接数据</li><li>window.location.href指定路径提交数据</li><li>通过a标签的href属性提交数据</li></ul><h4 id="后台"><a href="#后台" class="headerlink" title="后台"></a>后台</h4><p><a class="link"   href="https://www.stylefeng.cn/" >GUNS<i class="fas fa-external-link-alt"></i></a> 更简洁的代码，可插拔式架构，5年磨一剑，帮助中、小企业解决前后端架构问题</p><h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p><strong>雪碧图</strong>（CSS Sprites）： 一种CSS图像合并技术,该方法是将小图标和背景图像合并到一张图片上,然后利用css的背景定位来显示需要显示的图片部分</p><p><strong>Dreamweaver</strong>：上个世纪的产品了，建议不用；傻瓜式，好low啊； 公元2021年，看老师课件有的还写这个</p><p><strong>切图仔</strong>：早期CSS 还相对较弱，大量的设计效果不是通过样式可以做到的。需要前端岗位工作者把设计稿内一些图形元素从 PS 等原始设计稿内裁切出来，放在页面的 img 标签中或者 CSS background-image 样式中使用。现在被用为自嘲</p><p><strong>图书</strong>：</p><p>计算机组成原理 唐朔飞 高教</p><p>计算机体系结构 王志英 清华</p><h4 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h4><p>MQ</p><p>自平衡二叉查找树</p><p>java 上传插件</p><p><a class="link"   href="http://ibeetl.com/" >Beetl<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.stylefeng.cn/" >Guns<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://gitee.com/rtzhao/rtzhao/pages" >Gitee Pages<i class="fas fa-external-link-alt"></i></a></p><p>文件上传相关：</p><ul><li>SM.MS+Java  <a class="link"   href="https://doc.sm.ms/#api-Image-Upload" >SM.MS<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://www.jb51.net/article/162701.htm" >前端传输图片，后台接收并存在数据库中<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/u010002184/article/details/80587338" >本地测试–读取写入<i class="fas fa-external-link-alt"></i></a></li><li><a class="link"   href="https://blog.csdn.net/hujiajie0131/article/details/75330582" >根据url地址存储图片<i class="fas fa-external-link-alt"></i></a></li></ul><p>我有个设想建自己的图床 （.exe \网页 + 打开文件夹\拖拽上传+调后台接口存在服务器目录上，返回url地址）</p><p>目前使用的PicGo，为私人开发管理，好在都存储在个人github仓库中</p>]]></content>
+    <content type="html"><![CDATA[<p>玩无主之地3</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;Layuimini&quot;&gt;&lt;a href=&quot;#Layuimini&quot; class=&quot;headerlink&quot; title=&quot;Layuimini&quot;&gt;&lt;/a&gt;Layuimini&lt;/h4&gt;&lt;h5 id=&quot;下拉选项：tableSelect&quot;&gt;&lt;a href=&quot;#下拉选项：tabl</summary>
+    <summary type="html">&lt;p&gt;玩无主之地3&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
   
   <entry>
-    <title>日志-2021-8-27</title>
-    <link href="https://www.rtzhao.site/2021/08/27/%E6%97%A5%E5%BF%97-2021-8-27/"/>
-    <id>https://www.rtzhao.site/2021/08/27/%E6%97%A5%E5%BF%97-2021-8-27/</id>
-    <published>2021-08-27T00:41:09.000Z</published>
-    <updated>2021-08-27T09:50:57.311Z</updated>
+    <title>日志-2021-10-28</title>
+    <link href="https://www.rtzhao.site/2021/10/28/%E6%97%A5%E5%BF%97-2021-10-28/"/>
+    <id>https://www.rtzhao.site/2021/10/28/%E6%97%A5%E5%BF%97-2021-10-28/</id>
+    <published>2021-10-28T15:21:18.000Z</published>
+    <updated>2021-11-04T05:07:04.956Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="数据交换"><a href="#数据交换" class="headerlink" title="数据交换"></a>数据交换</h4><p>不想处理非json数据了，收发都是json算了，也好处理</p><h4 id="刷新"><a href="#刷新" class="headerlink" title="刷新"></a>刷新</h4><p>（1）子页面请求成功后刷新父页面</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">url</span>:<span class="string">&quot;http://localhost:9091/test/updateUser?&quot;</span>+param,</span><br><span class="line">    <span class="attr">data</span>:&#123;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">type</span>:<span class="string">&quot;POST&quot;</span>,</span><br><span class="line">    <span class="attr">success</span>:<span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">        parent.location.reload();  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>（2）刷新当前表格</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">table.reload(<span class="string">&#x27;currentTableId&#x27;</span>, &#123;</span><br><span class="line">    <span class="attr">page</span>: &#123;<span class="attr">curr</span>: <span class="number">1</span>&#125;</span><br><span class="line">&#125;</span><br><span class="line">);</span><br><span class="line"><span class="comment">// location.reload(); 或者这样</span></span><br></pre></td></tr></table></figure><h4 id="检索"><a href="#检索" class="headerlink" title="检索"></a>检索</h4><p>渲染table.render的异步接口，table.reload where设置额外参数</p><p><strong>动态sql</strong></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="operator">&lt;</span><span class="keyword">where</span><span class="operator">&gt;</span></span><br><span class="line"><span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;username !=null and username != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line"><span class="keyword">and</span> username <span class="keyword">like</span> concat(<span class="string">&#x27;%&#x27;</span>,#&#123;username&#125;,<span class="string">&#x27;%&#x27;</span>)</span><br><span class="line"><span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span></span><br><span class="line"><span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;gender !=null and gender != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line"><span class="keyword">and</span> gender <span class="keyword">like</span> concat(<span class="string">&#x27;%&#x27;</span>,#&#123;gender&#125;,<span class="string">&#x27;%&#x27;</span>)</span><br><span class="line"><span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span></span><br><span class="line"><span class="operator">&lt;</span>if test<span class="operator">=</span>&quot;startDate != null and endDate != null and startDate != &#x27;&#x27; and endDate != &#x27;&#x27;&quot;<span class="operator">&gt;</span></span><br><span class="line"><span class="keyword">and</span> induction_time <span class="keyword">between</span> #&#123;startDate&#125; <span class="keyword">and</span> #&#123;endDate&#125;</span><br><span class="line"><span class="operator">&lt;</span><span class="operator">/</span>if<span class="operator">&gt;</span></span><br><span class="line"><span class="operator">&lt;</span><span class="operator">/</span><span class="keyword">where</span><span class="operator">&gt;</span></span><br></pre></td></tr></table></figure><h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="springboot-控制台报错JSON-parse-error-Unrecognized-token-‘-‘-was-expecting-‘true‘-‘false‘-or-‘null‘"><a href="#springboot-控制台报错JSON-parse-error-Unrecognized-token-‘-‘-was-expecting-‘true‘-‘false‘-or-‘null‘" class="headerlink" title="springboot 控制台报错JSON parse error: Unrecognized token ‘*‘: was expecting (‘true‘, ‘false‘ or ‘null‘)"></a>springboot 控制台报错JSON parse error: Unrecognized token ‘*‘: was expecting (‘true‘, ‘false‘ or ‘null‘)</h5><p>前端返回数据格式不规范。<br>当dataType指定为json后,1.4+以上的jquery版本对json格式要求更加严格<br>如果不是严格的json格式,就不能正常执行success回调函数.</p><p>JSON格式:　<br>1）键名称：用双引号 括起 　　<br>2）字符串：用使用双引号 括起<br>3）数字，布尔类型不需要 使用双引号 括起</p><p><strong>用JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串</strong></p><p>传递多组数据时，后台可用Map键获取值后转换为LinkedHashMap，再用key获取值</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> parData=&#123;</span><br><span class="line">    <span class="attr">jsonDataPro</span>:&#123;</span><br><span class="line">        <span class="attr">k1</span>: <span class="string">&quot;hello&quot;</span>,</span><br><span class="line">        <span class="string">&quot;k2&quot;</span>:<span class="string">&quot;World&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;k3&#x27;</span>:<span class="string">&quot;SpringBoot&quot;</span>,</span><br><span class="line">        <span class="string">&#x27;k4&#x27;</span>:<span class="string">&#x27;MyBatis&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;k5&#x27;</span>:<span class="number">123</span>,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">myData</span>:&#123;</span><br><span class="line">        <span class="attr">l1</span>:<span class="string">&quot;jquery1.4+&quot;</span>,</span><br><span class="line">        <span class="attr">l2</span>:<span class="string">&quot;大傻逼&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$.ajax(&#123;</span><br><span class="line">    <span class="attr">url</span>: <span class="string">&quot;http://localhost:9091/test/jsonTran&quot;</span>,</span><br><span class="line">    <span class="attr">contentType</span>: <span class="string">&#x27;application/json;charset=UTF-8&#x27;</span>,</span><br><span class="line">    <span class="attr">data</span>: <span class="built_in">JSON</span>.stringify(parData),</span><br><span class="line">    <span class="attr">type</span>: <span class="string">&quot;POST&quot;</span>,</span><br><span class="line">    <span class="attr">dataType</span>: <span class="string">&quot;json&quot;</span>,</span><br><span class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping(value = &quot;/jsonTran&quot;)</span></span><br><span class="line"><span class="meta">@ResponseBody</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">userDetail</span><span class="params">(<span class="meta">@RequestBody</span> Map&lt;String, Object&gt; map)</span> </span>&#123;</span><br><span class="line">    System.out.println(map);</span><br><span class="line">    System.out.println(map.get(<span class="string">&quot;jsonDataPro&quot;</span>));</span><br><span class="line">    LinkedHashMap linkedHashMap= (LinkedHashMap) map.get(<span class="string">&quot;jsonDataPro&quot;</span>);</span><br><span class="line">    System.out.println(linkedHashMap);</span><br><span class="line">    System.out.println(linkedHashMap.get(<span class="string">&quot;k1&quot;</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;Hello World&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="警告-Raw-use-of-parameterized-class-‘LinkedHashMap’"><a href="#警告-Raw-use-of-parameterized-class-‘LinkedHashMap’" class="headerlink" title="警告 Raw use of parameterized class ‘LinkedHashMap’"></a>警告 Raw use of parameterized class ‘LinkedHashMap’</h5><p>不建议使用原生态类型，使用原生态类型会丢失泛型在安全性和表述性方面掉的所有优势。</p><h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><p><strong><ins></strong>  </p><p>My favorite color is <del>blue</del> <ins>red</ins>!</p><h4 id="Layui"><a href="#Layui" class="headerlink" title="Layui"></a>Layui</h4><h5 id="form"><a href="#form" class="headerlink" title="form"></a>form</h5><p><strong>lay-verify</strong></p><ul><li>required（必填项）</li><li>phone</li><li>email</li><li>url</li><li>number（数字）</li><li>data</li><li>identify（身份证）</li><li>自定义值</li></ul><h4 id="Layuimini"><a href="#Layuimini" class="headerlink" title="Layuimini"></a>Layuimini</h4><p>404页面：设置个计时器，超过时间则显示对应数字<br>下拉选项：<br>三级联动下拉选择器:<br>文件上传：</p><h4 id="智慧食堂"><a href="#智慧食堂" class="headerlink" title="智慧食堂"></a>智慧食堂</h4><p><a class="link"   href="http://www.zhihuishitang.cn/" >智慧食堂<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="http://www.tongxine.com/productshow_680.html" >同鑫科技 eHR管理平台<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://www.tianxia51.cn/" >智慧企业<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="http://www.mankebao.cn/index.html" >满客宝<i class="fas fa-external-link-alt"></i></a></p><p><a class="link"   href="https://xuexiao.bhuitong.com/index.htm" >博慧通<i class="fas fa-external-link-alt"></i></a></p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/rtzhao/image-hosting/master/images/202108271743553.png"                      alt="image-20210827174351415"                ></p>]]></content>
+    <content type="html"><![CDATA[<p>玩无主之地3</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;数据交换&quot;&gt;&lt;a href=&quot;#数据交换&quot; class=&quot;headerlink&quot; title=&quot;数据交换&quot;&gt;&lt;/a&gt;数据交换&lt;/h4&gt;&lt;p&gt;不想处理非json数据了，收发都是json算了，也好处理&lt;/p&gt;
-&lt;h4 id=&quot;刷新&quot;&gt;&lt;a href=&quot;#刷新&quot; cla</summary>
+    <summary type="html">&lt;p&gt;玩无主之地3&lt;/p&gt;
+</summary>
       
     
     
     
-    <category term="tantela" scheme="https://www.rtzhao.site/categories/tantela/"/>
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日志-2021-10-27</title>
+    <link href="https://www.rtzhao.site/2021/10/27/%E6%97%A5%E5%BF%97-2021-10-27/"/>
+    <id>https://www.rtzhao.site/2021/10/27/%E6%97%A5%E5%BF%97-2021-10-27/</id>
+    <published>2021-10-27T15:22:21.000Z</published>
+    <updated>2021-11-04T05:06:51.415Z</updated>
+    
+    <content type="html"><![CDATA[<p>玩无主之地3</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;玩无主之地3&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日志-2021-10-26</title>
+    <link href="https://www.rtzhao.site/2021/10/26/%E6%97%A5%E5%BF%97-2021-10-26/"/>
+    <id>https://www.rtzhao.site/2021/10/26/%E6%97%A5%E5%BF%97-2021-10-26/</id>
+    <published>2021-10-26T04:43:51.000Z</published>
+    <updated>2021-10-26T04:52:44.105Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="敏感字符"><a href="#敏感字符" class="headerlink" title="敏感字符"></a>敏感字符</h3><blockquote><p>? * : “ &lt; &gt; \ / | 。</p></blockquote><p>1：replace方法</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title =<span class="string">&#x27;把我看成新闻的*标题把。&#x27;</span>.replace(<span class="string">&#x27;*&#x27;</span>, <span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure><p>但聪明的小伙伴可能已经想到，那要是出现另外八个字符，不就又报错了嘛。没错，所以可以用另外一种方法。</p><p>2：translate方法</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">intab =<span class="string">&quot;?*/\|.:&gt;&lt;&quot;</span></span><br><span class="line">outtab =<span class="string">&quot;     &quot;</span></span><br><span class="line">trantab =<span class="built_in">str</span>`.maketrans(intab, outtab)</span><br><span class="line">title =<span class="string">&#x27;把我看|成?新.闻\的*标题把。&#x27;</span>.translate(trantab)</span><br><span class="line">contetn =<span class="string">&#x27;就把我看成是新闻的内容把！！！&#x27;</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(title+<span class="string">&#x27;.txt&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(contetn)</span><br></pre></td></tr></table></figure><p>这里用到了两个字符串的方法，第一个是maketrans，第二个是translate， maketrans() 方法用于创建字符映射的转换表，接受两个参数，第一个参数是字符串，表示需要转换的字符，第二个参数也是字符串，表示转换的目标。</p><p>translate() 方法根据参数table给出的表(包含 256 个字符)转换字符串的字符，table – 翻译表，翻译表是通过maketrans方法转换而来。这里把每个敏感字符都替换成了空格。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;敏感字符&quot;&gt;&lt;a href=&quot;#敏感字符&quot; class=&quot;headerlink&quot; title=&quot;敏感字符&quot;&gt;&lt;/a&gt;敏感字符&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;? * : “ &amp;lt; &amp;gt; \ / | 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;1：</summary>
+      
+    
+    
+    
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日志-2021-10-25</title>
+    <link href="https://www.rtzhao.site/2021/10/25/%E6%97%A5%E5%BF%97-2021-10-25/"/>
+    <id>https://www.rtzhao.site/2021/10/25/%E6%97%A5%E5%BF%97-2021-10-25/</id>
+    <published>2021-10-25T04:43:51.000Z</published>
+    <updated>2021-10-26T04:46:56.832Z</updated>
+    
+    <content type="html"><![CDATA[<p>跑通流程，展示给严老师看</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;跑通流程，展示给严老师看&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="HIT" scheme="https://www.rtzhao.site/categories/HIT/"/>
     
     
   </entry>
