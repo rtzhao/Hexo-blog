@@ -2069,4 +2069,16 @@
         <tag>paper</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024重启</title>
+    <url>/2024/07/26/%E6%97%A5%E5%BF%97-2024-06-27-2/</url>
+    <content><![CDATA[<h2 id="1-hexo"><a href="#1-hexo" class="headerlink" title="1 hexo"></a>1 hexo</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo new 日志-2024-xx-xx</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<p>再将public文件夹下生成的文件上传至宝塔rtzhao.tech文件夹下，实现更新</p>
+<h2 id="2-第18届中国好创意大赛"><a href="#2-第18届中国好创意大赛" class="headerlink" title="2 第18届中国好创意大赛"></a>2 <strong>第18届中国好创意大赛</strong></h2><p>编辑了文本内容图片内容，提交了作品</p>
+]]></content>
+      <tags>
+        <tag>paper</tag>
+      </tags>
+  </entry>
 </search>
